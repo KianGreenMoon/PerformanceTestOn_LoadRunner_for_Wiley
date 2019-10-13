@@ -6,35 +6,48 @@
                 "stepId": "STEP1",
                 "stepName": "Url: test.youplace.net",
                 "infFile": "t1.inf",
-                "time": 1570992415072
+                "time": 1570996953346
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Link: Start test",
                 "infFile": "t2.inf",
-                "time": 1570992415689
+                "time": 1570996953940
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: 1",
                 "infFile": "t3.inf",
-                "time": 1570992416910
+                "time": 1570996954088
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: 1_2",
+                "infFile": "t4.inf",
+                "time": 1570996954286
             }
         ],
         "transactions": [
             {
                 "transactionName": "1_transaction",
-                "rawStartTime": 1570992413651,
-                "rawEndTime": 1570992415691,
+                "rawStartTime": 1570996952866,
+                "rawEndTime": 1570996953942,
                 "thinkTime": 0.0,
-                "wastedTime": 0.11040353775024414
+                "wastedTime": 0.09795570373535156
             },
             {
                 "transactionName": "refresh",
-                "rawStartTime": 1570992415695,
-                "rawEndTime": 1570992416922,
+                "rawStartTime": 1570996953946,
+                "rawEndTime": 1570996954103,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01586437225341797
+                "wastedTime": 0.017305923461914065
+            },
+            {
+                "transactionName": "submit",
+                "rawStartTime": 1570996954107,
+                "rawEndTime": 1570996954287,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018311023712158204
             }
         ]
     }

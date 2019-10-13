@@ -1,5 +1,6 @@
-GET /question/1 HTTP/1.1
-Referer: http://test.youplace.net/
+POST /question/1 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://test.youplace.net/question/1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Accept-Encoding: gzip, deflate
 Accept-Language: ru,en-US;q=0.7,en;q=0.3
@@ -7,4 +8,5 @@ Accept: */*
 Connection: Keep-Alive
 Host: test.youplace.net
 Cookie: SID=adIBSkARFa5Hfj3CCVF9GuidmINJN54w
+Content-Length: 21
 

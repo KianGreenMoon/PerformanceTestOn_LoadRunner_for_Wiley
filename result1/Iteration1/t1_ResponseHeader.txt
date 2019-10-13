@@ -1,8 +1,8 @@
 HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 13 Oct 2019 18:46:53 GMT
+Date: Sun, 13 Oct 2019 20:02:32 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 1375
 Connection: keep-alive
-Set-Cookie: SID=M1t520i9AJ5EJ7bK2U7R2mRyytuxRd5c; Max-Age=3600; HttpOnly; SameSite=Strict
+Set-Cookie: SID=adIBSkARFa5Hfj3CCVF9GuidmINJN54w; Max-Age=3600; HttpOnly; SameSite=Strict
 
