@@ -2609,7 +2609,7 @@ vuser_init()
 
 # 1 "Action.c" 1
 Action()
-{
+{	
 	web_cleanup_cookies();
 	web_cache_cleanup();
 	web_cleanup_auto_headers();
@@ -2627,14 +2627,10 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	 
-
 	web_link("Start test", 
 		"Text=Start test", 
 		"Snapshot=t41.inf", 
 		"LAST");
-
-	 
 
 	lr_end_transaction("1_transaction",2);
 
@@ -2662,22 +2658,15 @@ Action()
 	formsParser();
 
 	lr_end_transaction("refresh",2);
-return 0;
+
 	lr_think_time(3);
 
 	lr_start_transaction("submit");
 
-	web_submit_form("1_2", 
-		"Snapshot=t43.inf", 
-		"ITEMDATA", 
-		"Name=P8OpEZ3u6nIJWlD0", "Value=EhFDVpwEJZdLB", "ENDITEM", 
-		"Name=tPNvszndA4Hu4MmC", "Value=qbsIRv45TbeeiIU", "ENDITEM", 
-		"Name=FA0WAMv76WgnxCma", "Value=test", "ENDITEM", 
-		"Name=SNT9dLaDljWvoOuc", "Value=RRp4lmwMXrFzUXd2", "ENDITEM", 
-		"LAST");
+	sendForm();
 
 	lr_end_transaction("submit",2);
-
+return 0;
 	lr_think_time(3);
 	
 	lr_start_transaction("error");
@@ -2711,6 +2700,31 @@ return 0;
 	lr_end_transaction("success",2);
 
 	return 0;
+}
+
+sendForm() {
+	int matchCt, ord;	
+	char *body=lr_eval_string("Body={inputName_1}={inputValue_1}");
+	matchCt = lr_paramarr_len("PStrings");
+	
+	for (ord=1; ord < matchCt; ord++){
+		lr_save_int(ord, "ordinal");
+		snprintf( body, 2014 , "%s&%s", body, lr_eval_string(lr_eval_string("{inputName_{ordinal}}={inputValue_{ordinal}}")) );
+	}
+
+	lr_log_message("LOG: %s", body);
+	
+	web_custom_request("1_2", 
+		"URL=http://test.youplace.net/question/1", 
+		"Method=POST", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://test.youplace.net/question/1", 
+		"Snapshot=t43.inf", 
+		"Mode=HTTP", 
+		body, 
+		"LAST");
+
 }
 # 5 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
 

@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="13.10.2019 - 21:46:53" eTime="13.10.2019 - 21:46:53" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="14.10.2019 - 0:07:16" eTime="14.10.2019 - 0:07:16" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Cleanup Cookies]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove all the cookies that are currently stored by the Vuser</CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:53]]></Time>
-<TimeTick>1570992413</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:16]]></Time>
+<TimeTick>1571000836</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Cleanup Cookies]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Cache Cleanup]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Clear the contents of the cache simulator</CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:53]]></Time>
-<TimeTick>1570992413</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:16]]></Time>
+<TimeTick>1571000836</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Cache Cleanup]]></Disp>
 </NodeArgs>
@@ -164,8 +164,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Cleanup Auto Headers]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Stop adding customized headers to subsequent HTTP requests</CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:53]]></Time>
-<TimeTick>1570992413</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:16]]></Time>
+<TimeTick>1571000836</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" >
 <Disp><![CDATA[Service: Cleanup Auto Headers]]></Disp>
 </NodeArgs>
@@ -173,8 +173,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>999999</FONT></STRONG> characters</CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:53]]></Time>
-<TimeTick>1570992413</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:16]]></Time>
+<TimeTick>1571000836</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="12" >
 <Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
 </NodeArgs>
@@ -182,8 +182,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:55]]></Time>
-<TimeTick>1570992415</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:17]]></Time>
+<TimeTick>1571000837</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="13" status="Passed" >
 <Disp><![CDATA[Url: test.youplace.net]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -194,8 +194,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Link: Start test]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:55]]></Time>
-<TimeTick>1570992415</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:18]]></Time>
+<TimeTick>1571000838</TimeTick>
 <NodeArgs eType="General" icon="9" nRep="14" status="Passed" >
 <Disp><![CDATA[Link: Start test]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -206,8 +206,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parse</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<form method="POST"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</form></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:55]]></Time>
-<TimeTick>1570992415</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:18]]></Time>
+<TimeTick>1571000838</TimeTick>
 <NodeArgs eType="General" icon="10" nRep="15" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -215,8 +215,8 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Url: 1]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[13.10.2019 - 21:46:56]]></Time>
-<TimeTick>1570992416</TimeTick>
+<Time><![CDATA[14.10.2019 - 0:07:18]]></Time>
+<TimeTick>1571000838</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="16" status="Passed" >
 <Disp><![CDATA[Url: 1]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -224,7 +224,19 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="13.10.2019 - 21:46:53" eTime="13.10.2019 - 21:46:56" passed="3" failed="0" warnings="0" ></Summary>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Custom Request: 1_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 0:07:18]]></Time>
+<TimeTick>1571000838</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="17" status="Passed" >
+<Disp><![CDATA[Custom Request: 1_2]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t4.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="14.10.2019 - 0:07:16" eTime="14.10.2019 - 0:07:18" passed="4" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -233,14 +245,14 @@
 <Disp><![CDATA[PerformanceTestOn_LoadRunner_for_Wiley Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T13">
+<Action rID="T14">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="13.10.2019 - 21:46:56" eTime="13.10.2019 - 21:46:56" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="19" >
+<Summary sTime="14.10.2019 - 0:07:18" eTime="14.10.2019 - 0:07:18" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="20" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="13.10.2019 - 21:46:53" eTime="13.10.2019 - 21:46:56" passed="3" failed="0" warnings="0" ></Summary>
+<Summary sTime="14.10.2019 - 0:07:16" eTime="14.10.2019 - 0:07:18" passed="4" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test PerformanceTestOn_LoadRunner_for_Wiley Summary]]></Disp>
 </NodeArgs>
