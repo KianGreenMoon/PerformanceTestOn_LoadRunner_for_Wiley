@@ -1,4 +1,4 @@
-Virtual User Script started at: 13.10.2019 20:09:43
+Virtual User Script started at: 13.10.2019 21:15:37
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -22,91 +22,103 @@ Action.c(11): web_url("test.youplace.net") started  	[MsgId: MMSG-26355]
 Action.c(11): web_url("test.youplace.net") was successful, 1375 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
 Action.c(22): web_link("Start test") started  	[MsgId: MMSG-26355]
 Action.c(22): Linking to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27994]
-Action.c(22): web_link("Start test") was successful, 1533 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
-Action.c(29): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 2,5603 Wasted Time: 0,1009).
+Action.c(22): web_link("Start test") was successful, 1944 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 1.9622 Wasted Time: 0.0970).
 Action.c(33): Notify: Transaction "refresh" started.
 Action.c(35): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(35): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(43): web_url("1") started  	[MsgId: MMSG-26355]
 Action.c(43): Notify: Saving Parameter "parse = 
     
-    <p><select name="nxdL57PkvR1PRc7Z"><option value=""></option><option value="orprqXXBM">orprqXXBM</option><option value="fJQlY6NG">fJQlY6NG</option><option value="DsFPofN">DsFPofN</option><option value="D9nMFCEDVx1Fq">D9nMFCEDVx1Fq</option><option value="MUiZFxG">MUiZFxG</option></select></p>
+    <p><input type="text" name="1ApFnBpmJSjl6dX5"></p>
     
-    <p><input type="text" name="JqhfMC5fyDnwcwF5"></p>
+    <p><input type="text" name="WWXKuiKt5a6AUEZC"></p>
+    
+    <p><select name="Kk6OgenyNsq6vxYu"><option value=""></option><option value="kv4Drsrp">kv4Drsrp</option><option value="6Flf7Sz7Vx">6Flf7Sz7Vx</option><option value="PN6XcQo1">PN6XcQo1</option><option value="ju1spzzEjvAkL2eN">ju1spzzEjvAkL2eN</option></select></p>
+    
+    <p><input type="radio" name="b1wAWw0mPEIPekRt" value="Xu8ftkR">Xu8ftkR &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="L8p37QZ8">L8p37QZ8 &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="P9dvK3ah">P9dvK3ah &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="SIvcp805finojSo">SIvcp805finojSo &nbsp;&nbsp;&nbsp;</p>
     
     <p><button type="submit">Submit</button></p>
 ".
-Action.c(43): web_url("1") was successful, 1533 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): web_url("1") was successful, 1944 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
 Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
     
-    <p><select name="nxdL57PkvR1PRc7Z"><option value=""></option><option value="orprqXXBM">orprqXXBM</option><option value="fJQlY6NG">fJQlY6NG</option><option value="DsFPofN">DsFPofN</option><option value="D9nMFCEDVx1Fq">D9nMFCEDVx1Fq</option><option value="MUiZFxG">MUiZFxG</option></select></p>
+    <p><input type="text" name="1ApFnBpmJSjl6dX5"></p>
     
-    <p><input type="text" name="JqhfMC5fyDnwcwF5"></p>
+    <p><input type="text" name="WWXKuiKt5a6AUEZC"></p>
+    
+    <p><select name="Kk6OgenyNsq6vxYu"><option value=""></option><option value="kv4Drsrp">kv4Drsrp</option><option value="6Flf7Sz7Vx">6Flf7Sz7Vx</option><option value="PN6XcQo1">PN6XcQo1</option><option value="ju1spzzEjvAkL2eN">ju1spzzEjvAkL2eN</option></select></p>
+    
+    <p><input type="radio" name="b1wAWw0mPEIPekRt" value="Xu8ftkR">Xu8ftkR &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="L8p37QZ8">L8p37QZ8 &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="P9dvK3ah">P9dvK3ah &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="SIvcp805finojSo">SIvcp805finojSo &nbsp;&nbsp;&nbsp;</p>
     
     <p><button type="submit">Submit</button></p>
 "
-Extras.c(8): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings], size of buffer to scan: [417].
-Extras.c(8): Notify: Saving Parameter "PStrings_1 = <select name="nxdL57PkvR1PRc7Z"><option value=""></option><option value="orprqXXBM">orprqXXBM</option><option value="fJQlY6NG">fJQlY6NG</option><option value="DsFPofN">DsFPofN</option><option value="D9nMFCEDVx1Fq">D9nMFCEDVx1Fq</option><option value="MUiZFxG">MUiZFxG</option></select>".
-Extras.c(8): Notify: Saving Parameter "PStrings_2 = <input type="text" name="JqhfMC5fyDnwcwF5">".
-Extras.c(8): Notify: Saving Parameter "PStrings_3 = <button type="submit">Submit</button>".
-Extras.c(8): Notify: Saving Parameter "PStrings_count = 3".
-Extras.c(16): Notify: Parameter Substitution: parameter "PStrings_count" =  "3"
-3 match(es) found.
-Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_1" =  "<select name="nxdL57PkvR1PRc7Z"><option value=""></option><option value="orprqXXBM">orprqXXBM</option><option value="fJQlY6NG">fJQlY6NG</option><option value="DsFPofN">DsFPofN</option><option value="D9nMFCEDVx1Fq">D9nMFCEDVx1Fq</option><option value="MUiZFxG">MUiZFxG</option></select>"
-Extras.c(24): Notify: Saving Parameter "ordinal = 1".
-Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [285].
-Extras.c(34): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(34): Warning: The string 'inputName_1' with parameter delimiters is not a parameter.
-Extras.c(34): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(42): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(42): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [285].
-Extras.c(42): Notify: Saving Parameter "inputName_1 = nxdL57PkvR1PRc7Z".
-Extras.c(50): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(50): Notify: Parameter Substitution: parameter "inputName_1" =  "nxdL57PkvR1PRc7Z"
-Extras.c(50): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-LOG: This is a select
-Extras.c(82): Received Regular Expression [<option value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [285].
-Extras.c(82): Notify: Saving Parameter "selectValues_1 = orprqXXBM".
-Extras.c(82): Notify: Saving Parameter "selectValues_2 = fJQlY6NG".
-Extras.c(82): Notify: Saving Parameter "selectValues_3 = DsFPofN".
-Extras.c(82): Notify: Saving Parameter "selectValues_4 = D9nMFCEDVx1Fq".
-Extras.c(82): Notify: Saving Parameter "selectValues_5 = MUiZFxG".
-Extras.c(82): Notify: Saving Parameter "selectValues_count = 5".
-Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_2" =  "<input type="text" name="JqhfMC5fyDnwcwF5">"
-Extras.c(24): Notify: Saving Parameter "ordinal = 2".
-Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [43].
-Extras.c(27): Notify: Saving Parameter "inputName_2 = JqhfMC5fyDnwcwF5".
-Extras.c(34): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(34): Notify: Parameter Substitution: parameter "inputName_2" =  "JqhfMC5fyDnwcwF5"
-Extras.c(34): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings], size of buffer to scan: [828].
+Extras.c(9): Notify: Saving Parameter "PStrings_1 = <input type="text" name="1ApFnBpmJSjl6dX5">".
+Extras.c(9): Notify: Saving Parameter "PStrings_2 = <input type="text" name="WWXKuiKt5a6AUEZC">".
+Extras.c(9): Notify: Saving Parameter "PStrings_3 = <select name="Kk6OgenyNsq6vxYu"><option value=""></option><option value="kv4Drsrp">kv4Drsrp</option><option value="6Flf7Sz7Vx">6Flf7Sz7Vx</option><option value="PN6XcQo1">PN6XcQo1</option><option value="ju1spzzEjvAkL2eN">ju1spzzEjvAkL2eN</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_4 = <input type="radio" name="b1wAWw0mPEIPekRt" value="Xu8ftkR">Xu8ftkR &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="L8p37QZ8">L8p37QZ8 &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="P9dvK3ah">P9dvK3ah &nbsp;&nbsp;&nbsp;<input type="radio" name="b1wAWw0mPEIPekRt" value="SIvcp805finojSo">SIvcp805finojSo &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_5 = <button type="submit">Submit</button>".
+Extras.c(9): Notify: Saving Parameter "PStrings_count = 5".
+Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_count" =  "5"
+5 match(es) found.
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1" =  "<input type="text" name="1ApFnBpmJSjl6dX5">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 1".
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_1 = 1ApFnBpmJSjl6dX5".
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_1" =  "1ApFnBpmJSjl6dX5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
 LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(38): Notify: Saving Parameter "inputValue_1 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_2" =  "<input type="text" name="WWXKuiKt5a6AUEZC">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 2".
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_2 = WWXKuiKt5a6AUEZC".
 Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(36): Notify: Saving Parameter "inputValue_2 = test".
-Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_3" =  "<button type="submit">Submit</button>"
-Extras.c(24): Notify: Saving Parameter "ordinal = 3".
-Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [37].
-Extras.c(34): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(34): Warning: The string 'inputName_3' with parameter delimiters is not a parameter.
-Extras.c(34): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(42): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(42): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [37].
-Extras.c(50): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(50): Warning: The string 'inputName_3' with parameter delimiters is not a parameter.
-Extras.c(50): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(59): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(59): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [37].
-Extras.c(67): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Extras.c(67): Warning: The string 'inputName_3' with parameter delimiters is not a parameter.
-Extras.c(67): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-LOG: another type
-Action.c(54): Notify: Transaction "refresh" ended with a "Pass" status (Duration: 0.4308 Wasted Time: 0.0166).
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_2" =  "WWXKuiKt5a6AUEZC"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(38): Notify: Saving Parameter "inputValue_2 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_3" =  "<select name="Kk6OgenyNsq6vxYu"><option value=""></option><option value="kv4Drsrp">kv4Drsrp</option><option value="6Flf7Sz7Vx">6Flf7Sz7Vx</option><option value="PN6XcQo1">PN6XcQo1</option><option value="ju1spzzEjvAkL2eN">ju1spzzEjvAkL2eN</option></select>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 3".
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [255].
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Warning: The string 'inputName_3' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [255].
+Extras.c(44): Notify: Saving Parameter "inputName_3 = Kk6OgenyNsq6vxYu".
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_3" =  "Kk6OgenyNsq6vxYu"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+LOG: This is a select
+Extras.c(56): Received Regular Expression [<option value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [255].
+Extras.c(56): Notify: Saving Parameter "selectValues_1 = kv4Drsrp".
+Extras.c(56): Notify: Saving Parameter "selectValues_2 = 6Flf7Sz7Vx".
+Extras.c(56): Notify: Saving Parameter "selectValues_3 = PN6XcQo1".
+Extras.c(56): Notify: Saving Parameter "selectValues_4 = ju1spzzEjvAkL2eN".
+Extras.c(56): Notify: Saving Parameter "selectValues_count = 4".
+Extras.c(64): Notify: Parameter Substitution: parameter "selectValues_count" =  "4"
+Extras.c(68): Notify: Parameter Substitution: parameter "selectValues_1" =  "kv4Drsrp"
+Extras.c(69): Notify: Parameter Substitution: parameter "selectValues_1" =  "kv4Drsrp"
+Extras.c(68): Notify: Parameter Substitution: parameter "selectValues_2" =  "6Flf7Sz7Vx"
+Extras.c(69): Notify: Parameter Substitution: parameter "selectValues_2" =  "6Flf7Sz7Vx"
+Extras.c(68): Notify: Parameter Substitution: parameter "selectValues_3" =  "PN6XcQo1"
+Extras.c(68): Notify: Parameter Substitution: parameter "selectValues_4" =  "ju1spzzEjvAkL2eN"
+Extras.c(69): Notify: Parameter Substitution: parameter "selectValues_4" =  "ju1spzzEjvAkL2eN"
+Extras.c(73): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(73): Notify: Saving Parameter "inputValue_3 = ju1spzzEjvAkL2eN".
+Action.c(54): Notify: Transaction "refresh" ended with a "Pass" status (Duration: 0.3580 Wasted Time: 0.0176).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 3284), ended OK."
+Vuser 0 (thread 6368), ended OK."
