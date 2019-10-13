@@ -1,4 +1,4 @@
-Virtual User Script started at: 13.10.2019 17:46:35
+Virtual User Script started at: 13.10.2019 17:55:17
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -16,67 +16,81 @@ Action.c(10): web_url("test.youplace.net") started  	[MsgId: MMSG-26355]
 Action.c(10): web_url("test.youplace.net") was successful, 1375 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
 Action.c(21): web_link("Start test") started  	[MsgId: MMSG-26355]
 Action.c(21): Linking to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27994]
-Action.c(21): web_link("Start test") was successful, 1646 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
-Action.c(28): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 1,9509 Wasted Time: 0,1022).
+Action.c(21): web_link("Start test") was successful, 1913 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 1.5356 Wasted Time: 0.1014).
 Action.c(32): Notify: Transaction "refresh" started.
 Action.c(34): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(34): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(42): web_url("1") started  	[MsgId: MMSG-26355]
 Action.c(42): Notify: Saving Parameter "parse = 
     
-    <p><input type="radio" name="PJkL0IjDua9tA3lL" value="VfgyLzL7">VfgyLzL7 &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="DMQ3V8L">DMQ3V8L &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="3CgfKnI0LEOi6lF">3CgfKnI0LEOi6lF &nbsp;&nbsp;&nbsp;</p>
+    <p><input type="text" name="kPp2McXx38wHvG8G"></p>
     
-    <p><select name="IsVdmVTh206s4aMm"><option value=""></option><option value="Pl9cNRxjP5iAL9Gw">Pl9cNRxjP5iAL9Gw</option><option value="1Ga4CIn">1Ga4CIn</option></select></p>
+    <p><input type="radio" name="piVjnUYY8AmLJemB" value="Xqx3IIIY7I7nvS">Xqx3IIIY7I7nvS &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="kwE1Iaz">kwE1Iaz &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="PoFTnVcHIU">PoFTnVcHIU &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="1tDo9jYVC">1tDo9jYVC &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="R6NIy9q">R6NIy9q &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="KFAKqBhF4tMDYkN0" value="NzAnfBypcwaHTVRl">NzAnfBypcwaHTVRl &nbsp;&nbsp;&nbsp;<input type="radio" name="KFAKqBhF4tMDYkN0" value="ll0q2Imfj">ll0q2Imfj &nbsp;&nbsp;&nbsp;</p>
     
     <p><button type="submit">Submit</button></p>
 ".
-Action.c(42): web_url("1") was successful, 1646 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
-Action.c(54): Notify: Parameter Substitution: parameter "parse" =  "
+Action.c(42): web_url("1") was successful, 1913 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
     
-    <p><input type="radio" name="PJkL0IjDua9tA3lL" value="VfgyLzL7">VfgyLzL7 &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="DMQ3V8L">DMQ3V8L &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="3CgfKnI0LEOi6lF">3CgfKnI0LEOi6lF &nbsp;&nbsp;&nbsp;</p>
+    <p><input type="text" name="kPp2McXx38wHvG8G"></p>
     
-    <p><select name="IsVdmVTh206s4aMm"><option value=""></option><option value="Pl9cNRxjP5iAL9Gw">Pl9cNRxjP5iAL9Gw</option><option value="1Ga4CIn">1Ga4CIn</option></select></p>
+    <p><input type="radio" name="piVjnUYY8AmLJemB" value="Xqx3IIIY7I7nvS">Xqx3IIIY7I7nvS &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="kwE1Iaz">kwE1Iaz &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="PoFTnVcHIU">PoFTnVcHIU &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="1tDo9jYVC">1tDo9jYVC &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="R6NIy9q">R6NIy9q &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="KFAKqBhF4tMDYkN0" value="NzAnfBypcwaHTVRl">NzAnfBypcwaHTVRl &nbsp;&nbsp;&nbsp;<input type="radio" name="KFAKqBhF4tMDYkN0" value="ll0q2Imfj">ll0q2Imfj &nbsp;&nbsp;&nbsp;</p>
     
     <p><button type="submit">Submit</button></p>
 "
-Action.c(59): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings], size of buffer to scan: [530].
-Action.c(59): Notify: Saving Parameter "PStrings_1 = <input type="radio" name="PJkL0IjDua9tA3lL" value="VfgyLzL7">VfgyLzL7 &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="DMQ3V8L">DMQ3V8L &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="3CgfKnI0LEOi6lF">3CgfKnI0LEOi6lF &nbsp;&nbsp;&nbsp;".
-Action.c(59): Notify: Saving Parameter "PStrings_2 = <select name="IsVdmVTh206s4aMm"><option value=""></option><option value="Pl9cNRxjP5iAL9Gw">Pl9cNRxjP5iAL9Gw</option><option value="1Ga4CIn">1Ga4CIn</option></select>".
-Action.c(59): Notify: Saving Parameter "PStrings_3 = <button type="submit">Submit</button>".
-Action.c(59): Notify: Saving Parameter "PStrings_count = 3".
-Action.c(67): Notify: Parameter Substitution: parameter "PStrings_count" =  "3"
-3 match(es) found.
-Action.c(73): Notify: Parameter Substitution: parameter "PStrings_1" =  "<input type="radio" name="PJkL0IjDua9tA3lL" value="VfgyLzL7">VfgyLzL7 &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="DMQ3V8L">DMQ3V8L &nbsp;&nbsp;&nbsp;<input type="radio" name="PJkL0IjDua9tA3lL" value="3CgfKnI0LEOi6lF">3CgfKnI0LEOi6lF &nbsp;&nbsp;&nbsp;"
-Action.c(75): Notify: Saving Parameter "ordinal = 1".
-Action.c(78): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Action.c(78): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [276].
-Action.c(87): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Action.c(87): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [276].
-Action.c(96): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Action.c(96): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [276].
-Action.c(96): Notify: Saving Parameter "inputName_1 = PJkL0IjDua9tA3lL".
-Action.c(73): Notify: Parameter Substitution: parameter "PStrings_2" =  "<select name="IsVdmVTh206s4aMm"><option value=""></option><option value="Pl9cNRxjP5iAL9Gw">Pl9cNRxjP5iAL9Gw</option><option value="1Ga4CIn">1Ga4CIn</option></select>"
-Action.c(75): Notify: Saving Parameter "ordinal = 2".
-Action.c(78): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Action.c(78): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [165].
-Action.c(87): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Action.c(87): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [165].
-Action.c(87): Notify: Saving Parameter "inputName_2 = IsVdmVTh206s4aMm".
-Action.c(96): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Action.c(96): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [165].
-Action.c(73): Notify: Parameter Substitution: parameter "PStrings_3" =  "<button type="submit">Submit</button>"
-Action.c(75): Notify: Saving Parameter "ordinal = 3".
-Action.c(78): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Action.c(78): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [37].
-Action.c(87): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Action.c(87): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [37].
-Action.c(96): Notify: Parameter Substitution: parameter "ordinal" =  "3"
-Action.c(96): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [37].
-Action.c(111): Notify: Transaction "refresh" ended with a "Pass" status (Duration: 0,4493 Wasted Time: 0,0163).
+Extras.c(8): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings], size of buffer to scan: [797].
+Extras.c(8): Notify: Saving Parameter "PStrings_1 = <input type="text" name="kPp2McXx38wHvG8G">".
+Extras.c(8): Notify: Saving Parameter "PStrings_2 = <input type="radio" name="piVjnUYY8AmLJemB" value="Xqx3IIIY7I7nvS">Xqx3IIIY7I7nvS &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="kwE1Iaz">kwE1Iaz &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="PoFTnVcHIU">PoFTnVcHIU &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="1tDo9jYVC">1tDo9jYVC &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="R6NIy9q">R6NIy9q &nbsp;&nbsp;&nbsp;".
+Extras.c(8): Notify: Saving Parameter "PStrings_3 = <input type="radio" name="KFAKqBhF4tMDYkN0" value="NzAnfBypcwaHTVRl">NzAnfBypcwaHTVRl &nbsp;&nbsp;&nbsp;<input type="radio" name="KFAKqBhF4tMDYkN0" value="ll0q2Imfj">ll0q2Imfj &nbsp;&nbsp;&nbsp;".
+Extras.c(8): Notify: Saving Parameter "PStrings_4 = <button type="submit">Submit</button>".
+Extras.c(8): Notify: Saving Parameter "PStrings_count = 4".
+Extras.c(16): Notify: Parameter Substitution: parameter "PStrings_count" =  "4"
+4 match(es) found.
+Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_1" =  "<input type="text" name="kPp2McXx38wHvG8G">"
+Extras.c(24): Notify: Saving Parameter "ordinal = 1".
+Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [43].
+Extras.c(27): Notify: Saving Parameter "inputName_1 = kPp2McXx38wHvG8G".
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(36): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [43].
+Extras.c(45): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(45): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_1], size of buffer to scan: [43].
+Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_2" =  "<input type="radio" name="piVjnUYY8AmLJemB" value="Xqx3IIIY7I7nvS">Xqx3IIIY7I7nvS &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="kwE1Iaz">kwE1Iaz &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="PoFTnVcHIU">PoFTnVcHIU &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="1tDo9jYVC">1tDo9jYVC &nbsp;&nbsp;&nbsp;<input type="radio" name="piVjnUYY8AmLJemB" value="R6NIy9q">R6NIy9q &nbsp;&nbsp;&nbsp;"
+Extras.c(24): Notify: Saving Parameter "ordinal = 2".
+Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [454].
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(36): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [454].
+Extras.c(45): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(45): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_2], size of buffer to scan: [454].
+Extras.c(45): Notify: Saving Parameter "inputName_2 = piVjnUYY8AmLJemB".
+Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_3" =  "<input type="radio" name="KFAKqBhF4tMDYkN0" value="NzAnfBypcwaHTVRl">NzAnfBypcwaHTVRl &nbsp;&nbsp;&nbsp;<input type="radio" name="KFAKqBhF4tMDYkN0" value="ll0q2Imfj">ll0q2Imfj &nbsp;&nbsp;&nbsp;"
+Extras.c(24): Notify: Saving Parameter "ordinal = 3".
+Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [194].
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [194].
+Extras.c(45): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(45): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_3], size of buffer to scan: [194].
+Extras.c(45): Notify: Saving Parameter "inputName_3 = KFAKqBhF4tMDYkN0".
+Extras.c(22): Notify: Parameter Substitution: parameter "PStrings_4" =  "<button type="submit">Submit</button>"
+Extras.c(24): Notify: Saving Parameter "ordinal = 4".
+Extras.c(27): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(27): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4], size of buffer to scan: [37].
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(36): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4], size of buffer to scan: [37].
+Extras.c(45): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(45): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_4], size of buffer to scan: [37].
+Action.c(53): Notify: Transaction "refresh" ended with a "Pass" status (Duration: 0.3292 Wasted Time: 0.0172).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 9928), ended OK."
+Vuser 0 (thread 14064), ended OK."

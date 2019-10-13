@@ -2658,65 +2658,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 	
-
-{
-
-    char * bufferToSearch = lr_eval_string("{parse}");
-    int matchCt, ord;
-    char *arrayMemberValue;
-    
-     
-    lr_save_param_regexp (
-        bufferToSearch,
-               strlen(bufferToSearch),
-               "RegExp=<p>(.+)</p>",
-               "Ordinal=All",
-               "ResultParam=PStrings",
-               "LAST" );
-
-    matchCt = lr_paramarr_len("PStrings");
-
-    lr_message("%d match(es) found.", matchCt);
-
-    for (ord=1; ord <= matchCt; ord++){
-    	
-    	arrayMemberValue = lr_paramarr_idx("PStrings", ord);
-    	
-    	lr_save_int(ord, "ordinal");
-    	
-	     
-	    lr_save_param_regexp (
-	        arrayMemberValue,
-	               strlen(arrayMemberValue),
-	               "RegExp=<input type=\"text\" name=\"(\\w+)\">",
-	               "Ordinal=1",
-	               lr_eval_string("ResultParam=inputName_{ordinal}"),
-	               "LAST" );
-	    
-	     
-	    lr_save_param_regexp (
-	        arrayMemberValue,
-	               strlen(arrayMemberValue),
-	               "RegExp=<select name=\"(\\w+)\">",
-	               "Ordinal=1",
-	               lr_eval_string("ResultParam=inputName_{ordinal}"),
-	               "LAST" );
-	    
-	     
-	    lr_save_param_regexp (
-	        arrayMemberValue,
-	               strlen(arrayMemberValue),
-	               "RegExp=<input type=\"radio\" name=\"(\\w+)\"",
-	               "Ordinal=1",
-	               lr_eval_string("ResultParam=inputName_{ordinal}"),
-	               "LAST" );
-
-	    
-	     
-		 
-    }
-}
-
+	formsParser();
 
 	lr_end_transaction("refresh",2);
 return 0;
@@ -2771,10 +2713,72 @@ return 0;
 }
 # 5 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
 
+# 1 "Extras.c" 1
+formsParser()
+{
+	char * bufferToSearch = lr_eval_string("{parse}");
+    int matchCt, ord;
+    char *arrayMemberValue;
+    
+     
+    lr_save_param_regexp (
+        bufferToSearch,
+               strlen(bufferToSearch),
+               "RegExp=<p>(.+)</p>",
+               "Ordinal=All",
+               "ResultParam=PStrings",
+               "LAST" );
+
+    matchCt = lr_paramarr_len("PStrings");
+
+    lr_message("%d match(es) found.", matchCt);
+
+    for (ord=1; ord <= matchCt; ord++){
+    	
+    	arrayMemberValue = lr_paramarr_idx("PStrings", ord);
+    	
+    	lr_save_int(ord, "ordinal");
+    	
+	     
+	    lr_save_param_regexp (
+	        arrayMemberValue,
+	               strlen(arrayMemberValue),
+	               "RegExp=<input type=\"text\" name=\"(\\w+)\">",
+	               "Ordinal=1",
+	               lr_eval_string("ResultParam=inputName_{ordinal}"),
+	               "LAST" );
+	    
+	     
+	    lr_save_param_regexp (
+	        arrayMemberValue,
+	               strlen(arrayMemberValue),
+	               "RegExp=<select name=\"(\\w+)\">",
+	               "Ordinal=1",
+	               lr_eval_string("ResultParam=inputName_{ordinal}"),
+	               "LAST" );
+	    
+	     
+	    lr_save_param_regexp (
+	        arrayMemberValue,
+	               strlen(arrayMemberValue),
+	               "RegExp=<input type=\"radio\" name=\"(\\w+)\"",
+	               "Ordinal=1",
+	               lr_eval_string("ResultParam=inputName_{ordinal}"),
+	               "LAST" );
+
+	    
+	     
+		 
+    }
+    
+	return 0;
+}
+# 6 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
+
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
+# 7 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
 

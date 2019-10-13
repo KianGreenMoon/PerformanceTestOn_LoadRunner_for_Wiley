@@ -25,6 +25,7 @@ ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
+Extras=Extras.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -37,18 +38,22 @@ globals.h=
 [Modified Actions]
 vuser_init=1
 Action=1
+Extras=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
 Action=1
+Extras=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
 Action=1
+Extras=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
 Action=cci
+Extras=cci
 vuser_end=cci
 [TransactionsOrder]
 Order="1_transaction__*delimiter*__refresh__*delimiter*__submit__*delimiter*__error__*delimiter*__success"
