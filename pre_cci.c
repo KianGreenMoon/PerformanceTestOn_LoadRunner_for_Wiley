@@ -2613,7 +2613,7 @@ Action()
 
 	lr_start_transaction("1_transaction");
 
-	web_add_cookie("SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g; DOMAIN=test.youplace.net");
+	 
 	
 	web_set_max_html_param_len("999999");
 
@@ -2664,23 +2664,71 @@ Action()
     char * bufferToSearch = lr_eval_string("{parse}");
     int matchCt, ord;
     char *arrayMemberValue;
-
+    
+     
     lr_save_param_regexp (
         bufferToSearch,
                strlen(bufferToSearch),
                "RegExp=<p>(.+)</p>",
                "Ordinal=All",
-               "ResultParam=reMatchesParam",
+               "ResultParam=PStrings",
                "LAST" );
 
-    matchCt = lr_paramarr_len("reMatchesParam");
+    matchCt = lr_paramarr_len("PStrings");
 
     lr_message("%d match(es) found.", matchCt);
 
     for (ord=1; ord <= matchCt; ord++){
 
                arrayMemberValue =
-                   lr_paramarr_idx("reMatchesParam", ord);
+                   lr_paramarr_idx("PStrings", ord);
+
+               lr_message("Member %d value: %s",
+                   ord, arrayMemberValue);
+
+    }
+
+     
+    lr_save_param_regexp (
+        bufferToSearch,
+               strlen(bufferToSearch),
+               "RegExp=<p><input type=\"text\" name=\"(\\w+)\"></p>",
+               "Ordinal=All",
+               "ResultParam=textName",
+               "LAST" );
+
+    matchCt = lr_paramarr_len("textName");
+
+    lr_message("%d match(es) found.", matchCt);
+
+    for (ord=1; ord <= matchCt; ord++){
+
+               arrayMemberValue =
+                   lr_paramarr_idx("textName", ord);
+
+               lr_message("Member %d value: %s",
+                   ord, arrayMemberValue);
+
+    }
+    
+    
+     
+    lr_save_param_regexp (
+        bufferToSearch,
+               strlen(bufferToSearch),
+               "RegExp=<p><select name=\"(\\w+)\">",
+               "Ordinal=All",
+               "ResultParam=selectName",
+               "LAST" );
+
+    matchCt = lr_paramarr_len("selectName");
+
+    lr_message("%d match(es) found.", matchCt);
+
+    for (ord=1; ord <= matchCt; ord++){
+
+               arrayMemberValue =
+                   lr_paramarr_idx("selectName", ord);
 
                lr_message("Member %d value: %s",
                    ord, arrayMemberValue);
