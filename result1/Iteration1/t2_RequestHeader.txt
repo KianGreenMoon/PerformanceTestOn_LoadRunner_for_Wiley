@@ -6,5 +6,5 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: test.youplace.net
-Cookie: SID=wslDulxLeFgVwvE8W4QSXnzvG8hhIpvF
+Cookie: SID=q6wNxpvvt7uKqpI7bay4SeIMppbbBwO6
 
