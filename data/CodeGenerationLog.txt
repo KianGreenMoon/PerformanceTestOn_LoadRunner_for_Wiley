@@ -1,0 +1,595 @@
+****** Start Log Message ******
+Web Recorder version : 12.60.971.0 
+Recording Mode: HTML-based script
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+	text/html; charset=utf-8
+	charset=utf-8
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.60.971.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 522 ******
+GET / HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: test.youplace.net
+Connection: Keep-Alive
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 522 Ended $$$$$$
+
+****** Response Header For Transaction With Id 522 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:23 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1375
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 522 Ended $$$$$$
+
+****** Response Body For Transaction With Id 522 ******
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Test</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>New Test</h1><hr>
+
+<p>You should take all questions using rules within each question. Rules are the same for all questions.</p>
+<p>Test is considered as succeessful if you see "<b>Test successfully passed</b>" text at the end.</p>
+<p>Please note this is not a performance server. Please use this host (test.youplace.net) for scripting and validation purposes only.</p>
+<p>All HTTP requests will be automatically rejected with HTTP-503 error if the rate exceeds 10 requests per second.</p>
+<br>
+<a href="/question/1"><button>Start test</button></a>
+
+</body>
+</html>
+
+
+
+$$$$$$ Response Body For Transaction With Id 522 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 522 ****** (Location Flag : tFlagInsertEnd, Location ID : 522)
+	web_url("test.youplace.net",
+		"URL=http://test.youplace.net/",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t40.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 522 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 522)
+	web_add_cookie("SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g; DOMAIN=test.youplace.net");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 524 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: test.youplace.net
+Connection: Keep-Alive
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 524 Ended $$$$$$
+
+****** Response Header For Transaction With Id 524 ******
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:24 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 146
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 524 Ended $$$$$$
+
+****** Response Body For Transaction With Id 524 ******
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 524 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 526 ******
+GET /question/1 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://test.youplace.net/
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: test.youplace.net
+Connection: Keep-Alive
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 526 Ended $$$$$$
+
+****** Response Header For Transaction With Id 526 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:25 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 2026
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 526 Ended $$$$$$
+
+****** Response Body For Transaction With Id 526 ******
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 1</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>Question 1</h1><hr>
+
+<p><b>INPUT[@type=text]</b> field must be filled in with "test" value</p>
+<p><b>INPUT[@type=radio]</b> field must be selected with the longest value</li>
+<p><b>SELECT</b> field must be selected with the longest value</p>
+<h2>Answer</h2>
+
+<form method="POST">
+    
+    <p><input type="radio" name="P8OpEZ3u6nIJWlD0" value="jSzrKU6S">jSzrKU6S &nbsp;&nbsp;&nbsp;<input type="radio" name="P8OpEZ3u6nIJWlD0" value="NIqTSArVU">NIqTSArVU &nbsp;&nbsp;&nbsp;<input type="radio" name="P8OpEZ3u6nIJWlD0" value="r4I4t9t">r4I4t9t &nbsp;&nbsp;&nbsp;<input type="radio" name="P8OpEZ3u6nIJWlD0" value="EhFDVpwEJZdLB">EhFDVpwEJZdLB &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><select name="tPNvszndA4Hu4MmC"><option value=""></option><option value="oE0zi5BXXS">oE0zi5BXXS</option><option value="2rLwcLWnW0">2rLwcLWnW0</option><option value="qbsIRv45TbeeiIU">qbsIRv45TbeeiIU</option></select></p>
+    
+    <p><input type="text" name="FA0WAMv76WgnxCma"></p>
+    
+    <p><select name="SNT9dLaDljWvoOuc"><option value=""></option><option value="RRp4lmwMXrFzUXd2">RRp4lmwMXrFzUXd2</option><option value="UvA0PxrK">UvA0PxrK</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
+
+
+
+$$$$$$ Response Body For Transaction With Id 526 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 526 ****** (Location Flag : tFlagInsertEnd, Location ID : 526)
+	web_link("Start test",
+		"Text=Start test",
+		"Snapshot=t41.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 526 Ended $$$$$$
+
+****** Request Header For Transaction With Id 528 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: test.youplace.net
+Connection: Keep-Alive
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 528 Ended $$$$$$
+
+****** Response Header For Transaction With Id 528 ******
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:26 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 146
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 528 Ended $$$$$$
+
+****** Response Body For Transaction With Id 528 ******
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 528 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/question/1
+Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 530 ******
+GET /question/1 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://test.youplace.net/
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: test.youplace.net
+Connection: Keep-Alive
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 530 Ended $$$$$$
+
+****** Response Header For Transaction With Id 530 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:38 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 2026
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 530 Ended $$$$$$
+
+****** Response Body For Transaction With Id 530 ******
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 1</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>Question 1</h1><hr>
+
+<p><b>INPUT[@type=text]</b> field must be filled in with "test" value</p>
+<p><b>INPUT[@type=radio]</b> field must be selected with the longest value</li>
+<p><b>SELECT</b> field must be selected with the longest value</p>
+<h2>Answer</h2>
+
+<form method="POST">
+    
+    <p><input type="radio" name="P8OpEZ3u6nIJWlD0" value="jSzrKU6S">jSzrKU6S &nbsp;&nbsp;&nbsp;<input type="radio" name="P8OpEZ3u6nIJWlD0" value="NIqTSArVU">NIqTSArVU &nbsp;&nbsp;&nbsp;<input type="radio" name="P8OpEZ3u6nIJWlD0" value="r4I4t9t">r4I4t9t &nbsp;&nbsp;&nbsp;<input type="radio" name="P8OpEZ3u6nIJWlD0" value="EhFDVpwEJZdLB">EhFDVpwEJZdLB &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><select name="tPNvszndA4Hu4MmC"><option value=""></option><option value="oE0zi5BXXS">oE0zi5BXXS</option><option value="2rLwcLWnW0">2rLwcLWnW0</option><option value="qbsIRv45TbeeiIU">qbsIRv45TbeeiIU</option></select></p>
+    
+    <p><input type="text" name="FA0WAMv76WgnxCma"></p>
+    
+    <p><select name="SNT9dLaDljWvoOuc"><option value=""></option><option value="RRp4lmwMXrFzUXd2">RRp4lmwMXrFzUXd2</option><option value="UvA0PxrK">UvA0PxrK</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
+
+
+
+$$$$$$ Response Body For Transaction With Id 530 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/question/1
+Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 530 ****** (Location Flag : tFlagInsertEnd, Location ID : 530)
+	web_url("1",
+		"URL=http://test.youplace.net/question/1",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://test.youplace.net/",
+		"Snapshot=t42.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 530 Ended $$$$$$
+
+****** Request Header For Transaction With Id 542 ******
+POST /question/1 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://test.youplace.net/question/1
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: test.youplace.net
+Content-Length: 119
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 542 Ended $$$$$$
+
+****** Request Body For Transaction With Id 542 ******
+P8OpEZ3u6nIJWlD0=EhFDVpwEJZdLB&tPNvszndA4Hu4MmC=qbsIRv45TbeeiIU&FA0WAMv76WgnxCma=test&SNT9dLaDljWvoOuc=RRp4lmwMXrFzUXd2
+$$$$$$ Request Body For Transaction With Id 542 Ended $$$$$$
+
+****** Response Header For Transaction With Id 542 ******
+HTTP/1.1 302 Found
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:57 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: /question/2
+
+
+$$$$$$ Response Header For Transaction With Id 542 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/question/1
+Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 544 ******
+GET /question/2 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://test.youplace.net/question/1
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: test.youplace.net
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+
+
+$$$$$$ Request Header For Transaction With Id 544 Ended $$$$$$
+
+****** Response Header For Transaction With Id 544 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 13 Oct 2019 11:22:57 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1485
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 544 Ended $$$$$$
+
+****** Response Body For Transaction With Id 544 ******
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 2</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>Question 2</h1><hr>
+
+<p><b>INPUT[@type=text]</b> field must be filled in with "test" value</p>
+<p><b>INPUT[@type=radio]</b> field must be selected with the longest value</li>
+<p><b>SELECT</b> field must be selected with the longest value</p>
+<h2>Answer</h2>
+
+<form method="POST">
+    
+    <p><select name="tPrpgcCnJ90cjB02"><option value=""></option><option value="Uhy7k0d2">Uhy7k0d2</option><option value="5FeFf6D5Xj">5FeFf6D5Xj</option><option value="n814uh7SU">n814uh7SU</option><option value="MjUX2am3w">MjUX2am3w</option><option value="FVpyw4n0Uy79IU">FVpyw4n0Uy79IU</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
+
+
+
+$$$$$$ Response Body For Transaction With Id 544 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/question/1
+Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 544 ****** (Location Flag : tFlagInsertEnd, Location ID : 544)
+	web_submit_form("1_2",
+		"Snapshot=t43.inf",
+		ITEMDATA,
+		"Name=P8OpEZ3u6nIJWlD0", "Value=EhFDVpwEJZdLB", ENDITEM,
+		"Name=tPNvszndA4Hu4MmC", "Value=qbsIRv45TbeeiIU", ENDITEM,
+		"Name=FA0WAMv76WgnxCma", "Value=test", ENDITEM,
+		"Name=SNT9dLaDljWvoOuc", "Value=RRp4lmwMXrFzUXd2", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 544 Ended $$$$$$
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Emper\Documents\VuGen\Scripts\test\PerformanceTestOn_LoadRunner_for_Wiley
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\emper\documents\vugen\scripts\test\performanceteston_loadrunner_for_wiley\\logfile.log
+c:\users\emper\documents\vugen\scripts\test\performanceteston_loadrunner_for_wiley\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c
+c:\users\emper\documents\vugen\scripts\test\performanceteston_loadrunner_for_wiley\\pre_cci.c

@@ -1,0 +1,59 @@
+9d1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 3</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>Question 3</h1><hr>
+
+<p><b>INPUT[@type=text]</b> field must be filled in with "test" value</p>
+<p><b>INPUT[@type=radio]</b> field must be selected with the longest value</li>
+<p><b>SELECT</b> field must be selected with the longest value</p>
+<h2>Answer</h2>
+
+<form method="POST">
+    
+    <p><input type="radio" name="VTBtYvxsyQsO5m4y" value="K2ZDiXT">K2ZDiXT &nbsp;&nbsp;&nbsp;<input type="radio" name="VTBtYvxsyQsO5m4y" value="vNgqie9">vNgqie9 &nbsp;&nbsp;&nbsp;<input type="radio" name="VTBtYvxsyQsO5m4y" value="OGQmvTihCQ">OGQmvTihCQ &nbsp;&nbsp;&nbsp;<input type="radio" name="VTBtYvxsyQsO5m4y" value="3ilOR7chqFK8vl1Q">3ilOR7chqFK8vl1Q &nbsp;&nbsp;&nbsp;<input type="radio" name="VTBtYvxsyQsO5m4y" value="x3dvWXW3">x3dvWXW3 &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><select name="p85vEPFbzVYimX9U"><option value=""></option><option value="gy80kWZ48">gy80kWZ48</option><option value="Ftw3esM1I">Ftw3esM1I</option><option value="eSzsWeKu8GrWR">eSzsWeKu8GrWR</option><option value="5GExCQQ">5GExCQQ</option><option value="R7ewrQSb5l">R7ewrQSb5l</option></select></p>
+    
+    <p><input type="radio" name="W2J5BHnL5MAPl5UE" value="uMEnpM1">uMEnpM1 &nbsp;&nbsp;&nbsp;<input type="radio" name="W2J5BHnL5MAPl5UE" value="hosMwmGs">hosMwmGs &nbsp;&nbsp;&nbsp;<input type="radio" name="W2J5BHnL5MAPl5UE" value="o7j5ZLQTw2DafS">o7j5ZLQTw2DafS &nbsp;&nbsp;&nbsp;<input type="radio" name="W2J5BHnL5MAPl5UE" value="n8dFuFk">n8dFuFk &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><select name="wrJ861NSHIpE4tIf"><option value=""></option><option value="4D9ozYGKGe">4D9ozYGKGe</option><option value="kxjS3omMz3iUu">kxjS3omMz3iUu</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
+
+
+
+0
+

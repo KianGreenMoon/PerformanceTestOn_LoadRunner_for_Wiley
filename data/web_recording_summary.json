@@ -1,0 +1,132 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 1,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "���-13-2019",
+    "RecordingDuration": 37406,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1570963787,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 7204,
+    "TotalBytesSent": 2588,
+    "TotalRequests": 7,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "youplace.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "185.204.3.165",
+          "IncludeInScript": true,
+          "Name": "test.youplace.net",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1125,
+              "EventId": 544,
+              "HttpStatus": 200,
+              "Size": 1485,
+              "URL": "http://test.youplace.net/question/2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 93,
+              "EventId": 542,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://test.youplace.net/question/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 407,
+              "EventId": 530,
+              "HttpStatus": 200,
+              "Size": 2026,
+              "URL": "http://test.youplace.net/question/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 563,
+              "EventId": 528,
+              "HttpStatus": 404,
+              "Size": 146,
+              "URL": "http://test.youplace.net/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 829,
+              "EventId": 526,
+              "HttpStatus": 200,
+              "Size": 2026,
+              "URL": "http://test.youplace.net/question/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 524,
+              "HttpStatus": 404,
+              "Size": 146,
+              "URL": "http://test.youplace.net/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 522,
+              "HttpStatus": 200,
+              "Size": 1375,
+              "URL": "http://test.youplace.net/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 7
+}

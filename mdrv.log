@@ -1,0 +1,33 @@
+Virtual User Script started at: 13.10.2019 14:04:16
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Emper\Documents\VuGen\Scripts\test\PerformanceTestOn_LoadRunner_for_Wiley\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "1_transaction" started.
+Action.c(6): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_url("test.youplace.net") started  	[MsgId: MMSG-26355]
+Action.c(8): web_url("test.youplace.net") was successful, 1375 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_link("Start test") started  	[MsgId: MMSG-26355]
+Action.c(19): Linking to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(19): web_link("Start test") was successful, 2054 body bytes, 163 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(26): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 0.8429 Wasted Time: 0.1201).
+Action.c(30): Notify: Transaction "2_transaction" started.
+Action.c(32): web_submit_form("1") started  	[MsgId: MMSG-26355]
+Action.c(32): Error -27979: Requested form not found  	[MsgId: MERR-27979]
+Action.c(32): web_submit_form("1") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(32): Notify: Transaction "2_transaction" ended with a "Fail" status (Duration: 0.0357).
+Action.c(32): Notify: Transaction "2_transaction" has 1 error message(s).
+Action.c(32): Notify: The 1st error message associated with transaction "2_transaction" is "Error -27979: Requested form not found"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

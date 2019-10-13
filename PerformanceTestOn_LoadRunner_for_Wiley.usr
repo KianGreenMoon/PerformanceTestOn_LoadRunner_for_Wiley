@@ -17,9 +17,9 @@ LastModifyVer=12.60.0.971
 ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
-LastCodeGenerationVer=
+LastCodeGenerationVer=12.60.0.971
 DisableRegenerate=0
-Encoding=
+Encoding=UTF8
 Description=
 ScriptLocale=ru-RU
 [Actions]
@@ -36,11 +36,11 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=1
-Action=0
+Action=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=0
+Action=1
 vuser_end=0
 [Replayed Actions]
 vuser_init=0
@@ -51,9 +51,15 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="1_transaction__*delimiter*__refresh__*delimiter*__submit__*delimiter*__error__*delimiter*__success"
 [StateManagement]
 LastReplayStatus=0
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=
+[Transactions]
+1_transaction=
+refresh=
+submit=
+error=
+success=

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 4</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>Question 4</h1><hr>
+
+<p><b>INPUT[@type=text]</b> field must be filled in with "test" value</p>
+<p><b>INPUT[@type=radio]</b> field must be selected with the longest value</li>
+<p><b>SELECT</b> field must be selected with the longest value</p>
+<h2>Answer</h2>
+
+<form method="POST">
+    
+    <p><select name="yn7Fok5NL3zVZNbo"><option value=""></option><option value="yxNbNOEDw">yxNbNOEDw</option><option value="izddu2WbsOXKCI">izddu2WbsOXKCI</option><option value="UOlEfbeM">UOlEfbeM</option><option value="7N4kqUDx">7N4kqUDx</option><option value="vKt3cGiM2">vKt3cGiM2</option></select></p>
+    
+    <p><input type="radio" name="5R7Jkp3MtnYOZOOy" value="wKSRko02xhqOX2">wKSRko02xhqOX2 &nbsp;&nbsp;&nbsp;<input type="radio" name="5R7Jkp3MtnYOZOOy" value="5Pkxt91">5Pkxt91 &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="8g7MU6EF8GaNcrhQ" value="PBbpjE0bbz">PBbpjE0bbz &nbsp;&nbsp;&nbsp;<input type="radio" name="8g7MU6EF8GaNcrhQ" value="FTwU9tSjy5t7SGd">FTwU9tSjy5t7SGd &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
+
+

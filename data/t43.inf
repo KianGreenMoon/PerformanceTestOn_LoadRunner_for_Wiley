@@ -1,0 +1,11 @@
+[t43]
+FileName1=t43.html
+URL1=http://test.youplace.net/question/2
+Total=1
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_43.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

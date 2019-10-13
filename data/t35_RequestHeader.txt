@@ -1,0 +1,10 @@
+GET /question/5 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://test.youplace.net/question/4
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: test.youplace.net
+Connection: Keep-Alive
+Cookie: SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g
+

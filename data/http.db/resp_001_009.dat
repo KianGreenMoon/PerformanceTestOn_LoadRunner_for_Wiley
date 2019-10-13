@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 3</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 2em;
+            border: 1px solid brown;
+            color: brown;
+            background-color: rgb(238, 201, 201);
+        }
+    </style>
+</head>
+<body>
+<h1>Question 3</h1><hr>
+
+<p><b>INPUT[@type=text]</b> field must be filled in with "test" value</p>
+<p><b>INPUT[@type=radio]</b> field must be selected with the longest value</li>
+<p><b>SELECT</b> field must be selected with the longest value</p>
+<h2>Answer</h2>
+
+<h3>ERROR: one or several values are incorrect</h3>
+
+<form method="POST">
+    
+    <p><input type="radio" name="SAIL7VD1UKBWu2SF" value="ueFiMrg">ueFiMrg &nbsp;&nbsp;&nbsp;<input type="radio" name="SAIL7VD1UKBWu2SF" value="YcDsowJCUwsXYjA">YcDsowJCUwsXYjA &nbsp;&nbsp;&nbsp;<input type="radio" name="SAIL7VD1UKBWu2SF" value="1yfRL6AS">1yfRL6AS &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="4WJ3I7kLCxD5T4y6" value="irqO0OJNB">irqO0OJNB &nbsp;&nbsp;&nbsp;<input type="radio" name="4WJ3I7kLCxD5T4y6" value="p6wPQZ8yef">p6wPQZ8yef &nbsp;&nbsp;&nbsp;<input type="radio" name="4WJ3I7kLCxD5T4y6" value="06sw1ZtV">06sw1ZtV &nbsp;&nbsp;&nbsp;<input type="radio" name="4WJ3I7kLCxD5T4y6" value="Y2C88euykVdsm7Xm">Y2C88euykVdsm7Xm &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="text" name="iAo90tG9IqicymBs"></p>
+    
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
+
+
