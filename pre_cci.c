@@ -2610,10 +2610,11 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
+	web_cleanup_cookies();
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
 
 	lr_start_transaction("1_transaction");
-
-	 
 	
 	web_set_max_html_param_len("999999");
 
@@ -2737,41 +2738,71 @@ formsParser()
     	
     	arrayMemberValue = lr_paramarr_idx("PStrings", ord);
     	
-    	lr_save_int(ord, "ordinal");
+	lr_save_int(ord, "ordinal");
+	
+     
+    lr_save_param_regexp (
+        arrayMemberValue,
+               strlen(arrayMemberValue),
+               "RegExp=<input type=\"text\" name=\"(\\w+)\">",
+               "Ordinal=1",
+               lr_eval_string("ResultParam=inputName_{ordinal}"),
+               "LAST" );
+    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
+    	lr_log_message("LOG: This is a text");
+		lr_save_string("test", lr_eval_string("inputValue_{ordinal}"));
+    }
+    
+    else {
+    
+     
+    lr_save_param_regexp (
+        arrayMemberValue,
+               strlen(arrayMemberValue),
+               "RegExp=<select name=\"(\\w+)\">",
+               "Ordinal=1",
+               lr_eval_string("ResultParam=inputName_{ordinal}"),
+               "LAST" );
+    
+   if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
+    	lr_log_message("LOG: This is a select");
+    	findLongestValue(arrayMemberValue);
+    }
+    
+    else {
+    
+    
+     
+    lr_save_param_regexp (
+        arrayMemberValue,
+               strlen(arrayMemberValue),
+               "RegExp=<input type=\"radio\" name=\"(\\w+)\"",
+               "Ordinal=1",
+               lr_eval_string("ResultParam=inputName_{ordinal}"),
+               "LAST" );
     	
-	     
-	    lr_save_param_regexp (
-	        arrayMemberValue,
-	               strlen(arrayMemberValue),
-	               "RegExp=<input type=\"text\" name=\"(\\w+)\">",
-	               "Ordinal=1",
-	               lr_eval_string("ResultParam=inputName_{ordinal}"),
-	               "LAST" );
-	    
-	     
-	    lr_save_param_regexp (
-	        arrayMemberValue,
-	               strlen(arrayMemberValue),
-	               "RegExp=<select name=\"(\\w+)\">",
-	               "Ordinal=1",
-	               lr_eval_string("ResultParam=inputName_{ordinal}"),
-	               "LAST" );
-	    
-	     
-	    lr_save_param_regexp (
-	        arrayMemberValue,
-	               strlen(arrayMemberValue),
-	               "RegExp=<input type=\"radio\" name=\"(\\w+)\"",
-	               "Ordinal=1",
-	               lr_eval_string("ResultParam=inputName_{ordinal}"),
-	               "LAST" );
-
-	    
-	     
-		 
+    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
+    	lr_log_message("LOG: This is a radio");
+    }
+    
+    else {
+    	lr_log_message("LOG: another type");    
+    }}}
+    
     }
     
 	return 0;
+}
+
+findLongestValue(char *arrayMemberValue) {
+	 
+	lr_save_param_regexp (
+	    arrayMemberValue,
+	           strlen(arrayMemberValue),
+	           "RegExp=<option value=\"(\\w+)\">",
+	           "Ordinal=ALL",
+	           lr_eval_string("ResultParam=selectValues"),
+	           "LAST" );
 }
 # 6 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
 

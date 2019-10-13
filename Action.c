@@ -1,9 +1,10 @@
 ﻿Action()
 {
+	web_cleanup_cookies();
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
 
 	lr_start_transaction("1_transaction");
-
-	//web_add_cookie("SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g; DOMAIN=test.youplace.net");
 	
 	web_set_max_html_param_len("999999");
 
