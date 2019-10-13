@@ -1,0 +1,51 @@
+Virtual User Script started at: 13.10.2019 15:24:34
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Emper\Documents\VuGen\Scripts\test\PerformanceTestOn_LoadRunner_for_Wiley\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "1_transaction" started.
+Action.c(6): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_url("test.youplace.net") started  	[MsgId: MMSG-26355]
+Action.c(10): web_url("test.youplace.net") was successful, 1375 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(21): web_link("Start test") started  	[MsgId: MMSG-26355]
+Action.c(21): Linking to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(21): web_link("Start test") was successful, 1675 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 2,0596 Wasted Time: 0,1098).
+Action.c(32): Notify: Transaction "refresh" started.
+Action.c(34): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(42): web_url("1") started  	[MsgId: MMSG-26355]
+Action.c(42): Notify: Saving Parameter "parse = 
+    
+    <p><select name="qpsYCTUa3SzGdASF"><option value=""></option><option value="59EC2CsaiwXoqrXD">59EC2CsaiwXoqrXD</option><option value="KV9NBLiT">KV9NBLiT</option></select></p>
+    
+    <p><input type="text" name="wFq4mT6cYa7CipU2"></p>
+    
+    <p><select name="Ypv7zSpX7rbhReGy"><option value=""></option><option value="eAChaGXXPZEg5">eAChaGXXPZEg5</option><option value="151cPLU">151cPLU</option><option value="z3k3hR7">z3k3hR7</option><option value="q0Jm7JBFZ">q0Jm7JBFZ</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+".
+Action.c(42): web_url("1") was successful, 1675 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(59): Received Regular Expression [(parse)], ordinal [0], case-sensitive [true], parameter [reMatchesParam], size of buffer to scan: [7].
+Action.c(59): Notify: Saving Parameter "reMatchesParam_1 = parse".
+Action.c(59): Notify: Saving Parameter "reMatchesParam_count = 1".
+Action.c(67): Notify: Parameter Substitution: parameter "reMatchesParam_count" =  "1"
+1 match(es) found.
+Action.c(73): Notify: Parameter Substitution: parameter "reMatchesParam_1" =  "parse"
+Member 1 value: parse
+Action.c(82): Notify: Transaction "refresh" ended with a "Pass" status (Duration: 0.3739 Wasted Time: 0.0160).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

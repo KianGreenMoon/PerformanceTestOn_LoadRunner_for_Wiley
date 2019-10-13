@@ -54,4 +54,3 @@ Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 10300), ended OK."

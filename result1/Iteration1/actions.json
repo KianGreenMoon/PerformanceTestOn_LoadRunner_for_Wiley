@@ -1,0 +1,41 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: test.youplace.net",
+                "infFile": "t1.inf",
+                "time": 1570969622153
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Start test",
+                "infFile": "t2.inf",
+                "time": 1570969622904
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 1",
+                "infFile": "t3.inf",
+                "time": 1570969623267
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_transaction",
+                "rawStartTime": 1570969620923,
+                "rawEndTime": 1570969622906,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10849761962890625
+            },
+            {
+                "transactionName": "refresh",
+                "rawStartTime": 1570969622910,
+                "rawEndTime": 1570969623297,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01694376564025879
+            }
+        ]
+    }
+]

@@ -2584,8 +2584,14 @@ void
 
 
 
+
+
+
  
  
+
+
+
 
 
 
@@ -2608,13 +2614,15 @@ Action()
 	lr_start_transaction("1_transaction");
 
 	web_add_cookie("SID=Xq2GlUd4QNkYTyRM6IKX4JkApIQZB41g; DOMAIN=test.youplace.net");
+	
+	web_set_max_html_param_len("999999");
 
 	web_url("test.youplace.net", 
 		"URL=http://test.youplace.net/", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t12.inf", 
+		"Snapshot=t40.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2622,7 +2630,7 @@ Action()
 
 	web_link("Start test", 
 		"Text=Start test", 
-		"Snapshot=t13.inf", 
+		"Snapshot=t41.inf", 
 		"LAST");
 
 	 
@@ -2631,36 +2639,77 @@ Action()
 
 	lr_think_time(3);
 
-	lr_start_transaction("2_transaction");
+	lr_start_transaction("refresh");
 
-	web_submit_form("1", 
-		"Snapshot=t14.inf", 
-		"ITEMDATA", 
-		"Name=rTx35h6Cn3aG7mHV", "Value=test", "ENDITEM", 
-		"Name=4qRHQRR8ft6KN3pB", "Value=test", "ENDITEM", 
-		"Name=NeE86QT2trtI5prX", "Value=test", "ENDITEM", 
-		"Name=fLvEVW8Zzo4XiFDF", "Value=AawxVcGmOGJ2KKZ", "ENDITEM", 
+	web_reg_save_param_ex(
+		"ParamName=parse",
+		"LB=<form method=\"POST\">",
+		"RB=</form>",
+		"Ordinal=1",
+		"SEARCH_FILTERS",
 		"LAST");
+	
+	web_url("1", 
+		"URL=http://test.youplace.net/question/1", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://test.youplace.net/", 
+		"Snapshot=t42.inf", 
+		"Mode=HTML", 
+		"LAST");
+	
 
-	lr_end_transaction("2_transaction",2);
+{
 
+    char * bufferToSearch = lr_eval_string("{parse}");
+    int matchCt, ord;
+    char *arrayMemberValue;
+
+    lr_save_param_regexp (
+        bufferToSearch,
+               strlen(bufferToSearch),
+               "RegExp=<p>(.+)</p>",
+               "Ordinal=All",
+               "ResultParam=reMatchesParam",
+               "LAST" );
+
+    matchCt = lr_paramarr_len("reMatchesParam");
+
+    lr_message("%d match(es) found.", matchCt);
+
+    for (ord=1; ord <= matchCt; ord++){
+
+               arrayMemberValue =
+                   lr_paramarr_idx("reMatchesParam", ord);
+
+               lr_message("Member %d value: %s",
+                   ord, arrayMemberValue);
+
+    }
+}
+
+	lr_end_transaction("refresh",2);
+return 0;
 	lr_think_time(3);
 
-	lr_start_transaction("3_transaction");
+	lr_start_transaction("submit");
 
-	web_submit_form("2", 
-		"Snapshot=t15.inf", 
+	web_submit_form("1_2", 
+		"Snapshot=t43.inf", 
 		"ITEMDATA", 
-		"Name=IbzM1kRc4N6pTC0T", "Value=6ExIIZvmXRv53Yyh", "ENDITEM", 
-		"Name=NfMiBf1kkTj0jY7n", "Value=test", "ENDITEM", 
-		"Name=lMmYdXv4jZTcdz5n", "Value=3rNodkFkXkW08B", "ENDITEM", 
+		"Name=P8OpEZ3u6nIJWlD0", "Value=EhFDVpwEJZdLB", "ENDITEM", 
+		"Name=tPNvszndA4Hu4MmC", "Value=qbsIRv45TbeeiIU", "ENDITEM", 
+		"Name=FA0WAMv76WgnxCma", "Value=test", "ENDITEM", 
+		"Name=SNT9dLaDljWvoOuc", "Value=RRp4lmwMXrFzUXd2", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("3_transaction",2);
+	lr_end_transaction("submit",2);
 
 	lr_think_time(3);
-
+	
 	lr_start_transaction("error");
+
+	 
 
 	 
 
@@ -2668,106 +2717,25 @@ Action()
 
 	lr_think_time(3);
 
-	lr_start_transaction("4_transaction");
+	lr_start_transaction("success");
 
-	web_submit_form("3", 
-		"Snapshot=t16.inf", 
-		"ITEMDATA", 
-		"Name=SAIL7VD1UKBWu2SF", "Value=YcDsowJCUwsXYjA", "ENDITEM", 
-		"Name=4WJ3I7kLCxD5T4y6", "Value=Y2C88euykVdsm7Xm", "ENDITEM", 
-		"Name=iAo90tG9IqicymBs", "Value=test", "ENDITEM", 
+	web_url("7", 
+		"URL=http://test.youplace.net/question/7", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://test.youplace.net/question/6", 
+		"Snapshot=t38.inf", 
+		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("4_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("5_transaction");
-
-	web_submit_form("4", 
-		"Snapshot=t17.inf", 
+	web_submit_form("7_2", 
+		"Snapshot=t39.inf", 
 		"ITEMDATA", 
-		"Name=roSsATVCkkzviDOj", "Value=test", "ENDITEM", 
-		"Name=s8qr6YMXVGnZgIPG", "Value=test", "ENDITEM", 
+		"Name=nBPRbgAFvqGVuVnl", "Value=SZ8haOt2d2oN4", "ENDITEM", 
+		"Name=LOcFzyNbtdxWGHGf", "Value=test", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("5_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("6_transaction");
-
-	web_submit_form("5", 
-		"Snapshot=t18.inf", 
-		"ITEMDATA", 
-		"Name=6OpKPeK7DTkkV7GE", "Value=YGdkAiuV1w7ga9", "ENDITEM", 
-		"Name=DQWbgsTwkfZtEmaQ", "Value=K7uiiUrBO1fF6", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("6_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("7_transaction");
-
-	web_submit_form("6", 
-		"Snapshot=t19.inf", 
-		"ITEMDATA", 
-		"Name=okUJ9px0N1MwkQFk", "Value=LrBtOPKnIaP3aQde", "ENDITEM", 
-		"Name=tYdsG3OTAy1rUG8D", "Value=LZTOYLOPOsJaSJNo", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("7_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("8_transaction");
-
-	web_submit_form("7", 
-		"Snapshot=t20.inf", 
-		"ITEMDATA", 
-		"Name=66Dv3sSMu4IkevQF", "Value=test", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("8_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("9_transaction");
-
-	web_submit_form("8", 
-		"Snapshot=t21.inf", 
-		"ITEMDATA", 
-		"Name=kEBSPAyXiRPz33ae", "Value=test", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("9_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("10_transaction");
-
-	web_submit_form("9", 
-		"Snapshot=t22.inf", 
-		"ITEMDATA", 
-		"Name=jaPalHMBqFtQSuaS", "Value=1lDQQ8sOMlUPpIG", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("10_transaction",2);
-
-	lr_think_time(3);
-
-	lr_start_transaction("11_transaction");
-
-	web_submit_form("10", 
-		"Snapshot=t23.inf", 
-		"ITEMDATA", 
-		"Name=yAsWXYkGmA0DNviQ", "Value=OoLmtfdOFLUD9", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("11_transaction",2);
-
-	lr_think_time(3);
+	lr_end_transaction("success",2);
 
 	return 0;
 }
