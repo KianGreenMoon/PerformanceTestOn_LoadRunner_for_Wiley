@@ -2768,28 +2768,7 @@ formsParser()
     
    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
     	lr_log_message("LOG: This is a select");
-
-	 
-	lr_save_param_regexp (
-	    arrayMemberValue,
-	           strlen(arrayMemberValue),
-	           "RegExp=<option value=\"(\\w+)\">",
-	           "Ordinal=ALL",
-	           lr_eval_string("ResultParam=selectValues"),
-	           "LAST" );
-	
-	matchCt2 = lr_paramarr_len("selectValues");
-	longestValue = "";
-	
-	for (ord=1; ord <= matchCt2; ord++){
-		if (strlen (lr_paramarr_idx("selectValues", ord)) > strlen(longestValue)) {
-			longestValue = lr_paramarr_idx("selectValues", ord);
-		}
-	}
-
-	lr_save_string(longestValue, lr_eval_string("inputValue_{ordinal}"));
-
-	    	
+    	findLongestValue(arrayMemberValue);	    	
     }
     
     else {
@@ -2806,27 +2785,7 @@ formsParser()
     	
     if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
     	lr_log_message("LOG: This is a radio");
-    	
-    	 
-	lr_save_param_regexp (
-	    arrayMemberValue,
-	           strlen(arrayMemberValue),
-	           "RegExp=value=\"(\\w+)\">",
-	           "Ordinal=ALL",
-	           lr_eval_string("ResultParam=selectValues"),
-	           "LAST" );
-	
-	matchCt2 = lr_paramarr_len("selectValues");
-	longestValue = "";
-	
-	for (ord=1; ord <= matchCt2; ord++){
-		if (strlen (lr_paramarr_idx("selectValues", ord)) > strlen(longestValue)) {
-			longestValue = lr_paramarr_idx("selectValues", ord);
-		}
-	}
-
-	lr_save_string(longestValue, lr_eval_string("inputValue_{ordinal}"));
-	
+    	findLongestValue(arrayMemberValue);
     }
     
     else {
@@ -2838,7 +2797,7 @@ formsParser()
 	return 0;
 }
 
-char *findLongestValue(char *arrayMemberValue) {
+findLongestValue(char *arrayMemberValue) {
 	
 	int matchCt, ord;
 	char *longestValue;
@@ -2847,7 +2806,7 @@ char *findLongestValue(char *arrayMemberValue) {
 	lr_save_param_regexp (
 	    arrayMemberValue,
 	           strlen(arrayMemberValue),
-	           "RegExp=<option value=\"(\\w+)\">",
+	           "RegExp=value=\"(\\w+)\">",
 	           "Ordinal=ALL",
 	           lr_eval_string("ResultParam=selectValues"),
 	           "LAST" );
@@ -2861,7 +2820,9 @@ char *findLongestValue(char *arrayMemberValue) {
 		}
 	}
 	
-	return longestValue;
+	lr_save_string(longestValue, lr_eval_string("inputValue_{ordinal}"));
+	
+	return 0;
 	
 }
 # 6 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
