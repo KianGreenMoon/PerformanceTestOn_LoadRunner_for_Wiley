@@ -24,6 +24,22 @@
     	
 	lr_save_int(ord, "ordinal");
 	
+	/*
+		Map of conditions:
+	
+		if type of form is text {
+			{...}
+		} else if type of form is select {
+			{...}
+		} else if type of form is radio {
+			{...}
+		} else {
+			Another type!
+		}
+	*/
+	
+	//=======================
+	
     //Name (ID) of text form
     lr_save_param_regexp (
         arrayMemberValue,
@@ -74,6 +90,8 @@
     else {
     	lr_log_message("LOG: another type");    
     }}}
+    
+    //======================
     
     }
     

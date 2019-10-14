@@ -2599,7 +2599,7 @@ void
 
 # 1 "vuser_init.c" 1
  
-# 22 "vuser_init.c"
+# 23 "vuser_init.c"
 
 vuser_init()
 {
@@ -2615,7 +2615,7 @@ Action()
 	web_cache_cleanup();
 	web_cleanup_auto_headers();
 
-	lr_start_transaction("1_transaction");
+	lr_start_transaction("Enter");
 	
 	web_set_max_html_param_len("999999");
 
@@ -2633,15 +2633,16 @@ Action()
 		"Snapshot=t41.inf", 
 		"LAST");
 
-	lr_end_transaction("1_transaction",2);
-
-	lr_think_time(3);
+	lr_end_transaction("Enter",2);
 	
+	 
 	for (i = 1; i <= 50; i++) {
 		
-	lr_save_int(i, "interation");
+	lr_think_time(3);
 
-	lr_start_transaction("refresh");
+	lr_start_transaction("Refresh");
+	
+	lr_save_int(i, "interation");
 
 	web_reg_save_param_ex(
 		"ParamName=parse",
@@ -2662,11 +2663,11 @@ Action()
 	
 	formsParser();
 
-	lr_end_transaction("refresh",2);
+	lr_end_transaction("Refresh",2);
 
 	lr_think_time(3);
 
-	lr_start_transaction("submit");
+	lr_start_transaction("Submit");
 
 	bodyRequestBuilder();
 	
@@ -2691,15 +2692,15 @@ Action()
 		"LAST");
 	
 	if(atoi ( lr_eval_string("{succes_count}") ) > 0) {
-		lr_end_transaction("submit", 0);
+		lr_end_transaction("Submit", 0);
 		return 0;
 	}
 	else if(atoi ( lr_eval_string("{error_count}") ) > 0) {
-		lr_end_transaction("submit", 1);
+		lr_end_transaction("Submit", 1);
 		return 0;
 	}
 
-	lr_end_transaction("submit",2);
+	lr_end_transaction("Submit",2);
 	
 	}
 	
@@ -2733,6 +2734,11 @@ formsParser()
     arrayMemberValue = lr_paramarr_idx(lr_eval_string("PStrings_{interation}"), ord);
     	
 	lr_save_int(ord, "ordinal");
+	
+	 
+# 40 "Extras.c"
+	
+	 
 	
      
     lr_save_param_regexp (
@@ -2784,6 +2790,8 @@ formsParser()
     else {
     	lr_log_message("LOG: another type");    
     }}}
+    
+     
     
     }
     

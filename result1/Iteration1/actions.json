@@ -6,282 +6,256 @@
                 "stepId": "STEP1",
                 "stepName": "Url: test.youplace.net",
                 "infFile": "t1.inf",
-                "time": 1571073451281
+                "time": 1571075686539
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Link: Start test",
                 "infFile": "t2.inf",
-                "time": 1571073451606
+                "time": 1571075686682
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: 1",
                 "infFile": "t3.inf",
-                "time": 1571073456076
+                "time": 1571075689858
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t4.inf",
-                "time": 1571073459462
+                "time": 1571075693281
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: 1",
                 "infFile": "t5.inf",
-                "time": 1571073459606
+                "time": 1571075696919
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t6.inf",
-                "time": 1571073463820
+                "time": 1571075700225
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: 1",
                 "infFile": "t7.inf",
-                "time": 1571073463966
+                "time": 1571075703485
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t8.inf",
-                "time": 1571073467256
+                "time": 1571075706809
             },
             {
                 "stepId": "STEP9",
                 "stepName": "Url: 1",
                 "infFile": "t9.inf",
-                "time": 1571073467429
+                "time": 1571075709978
             },
             {
                 "stepId": "STEP10",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t10.inf",
-                "time": 1571073471904
+                "time": 1571075713292
             },
             {
                 "stepId": "STEP11",
                 "stepName": "Url: 1",
                 "infFile": "t11.inf",
-                "time": 1571073472062
+                "time": 1571075716460
             },
             {
                 "stepId": "STEP12",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t12.inf",
-                "time": 1571073475363
+                "time": 1571075719760
             },
             {
                 "stepId": "STEP13",
                 "stepName": "Url: 1",
                 "infFile": "t13.inf",
-                "time": 1571073475510
+                "time": 1571075722947
             },
             {
                 "stepId": "STEP14",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t14.inf",
-                "time": 1571073479228
+                "time": 1571075726255
             },
             {
                 "stepId": "STEP15",
                 "stepName": "Url: 1",
                 "infFile": "t15.inf",
-                "time": 1571073479373
+                "time": 1571075729420
             },
             {
                 "stepId": "STEP16",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t16.inf",
-                "time": 1571073482753
+                "time": 1571075732814
             },
             {
                 "stepId": "STEP17",
                 "stepName": "Url: 1",
                 "infFile": "t17.inf",
-                "time": 1571073483380
+                "time": 1571075736027
             },
             {
                 "stepId": "STEP18",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t18.inf",
-                "time": 1571073488152
+                "time": 1571075739333
             },
             {
                 "stepId": "STEP19",
                 "stepName": "Url: 1",
                 "infFile": "t19.inf",
-                "time": 1571073488312
+                "time": 1571075742489
             },
             {
                 "stepId": "STEP20",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t20.inf",
-                "time": 1571073491606
-            },
-            {
-                "stepId": "STEP21",
-                "stepName": "Url: 1",
-                "infFile": "t21.inf",
-                "time": 1571073491796
-            },
-            {
-                "stepId": "STEP22",
-                "stepName": "Custom Request: 1_2",
-                "infFile": "t22.inf",
-                "time": 1571073494991
+                "time": 1571075745671
             }
         ],
         "transactions": [
             {
-                "transactionName": "1_transaction",
-                "rawStartTime": 1571073450277,
-                "rawEndTime": 1571073451607,
+                "transactionName": "Enter",
+                "rawStartTime": 1571075685454,
+                "rawEndTime": 1571075686684,
                 "thinkTime": 0.0,
-                "wastedTime": 0.09425806999206543
+                "wastedTime": 0.10113906860351563
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073454616,
-                "rawEndTime": 1571073456085,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075689691,
+                "rawEndTime": 1571075689891,
                 "thinkTime": 0.0,
-                "wastedTime": 0.016391826629638674
+                "wastedTime": 0.026600982666015628
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073459091,
-                "rawEndTime": 1571073459468,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075692896,
+                "rawEndTime": 1571075693287,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0227200984954834
+                "wastedTime": 0.02375340461730957
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073459475,
-                "rawEndTime": 1571073459618,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075696295,
+                "rawEndTime": 1571075696930,
                 "thinkTime": 0.0,
-                "wastedTime": 0.014952421188354493
+                "wastedTime": 0.01625092124938965
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073462623,
-                "rawEndTime": 1571073463825,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075699935,
+                "rawEndTime": 1571075700231,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02263045310974121
+                "wastedTime": 0.028612375259399415
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073463833,
-                "rawEndTime": 1571073463974,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075703241,
+                "rawEndTime": 1571075703504,
                 "thinkTime": 0.0,
-                "wastedTime": 0.016968561172485354
+                "wastedTime": 0.016741348266601565
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073466977,
-                "rawEndTime": 1571073467262,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075706510,
+                "rawEndTime": 1571075706815,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02082371711730957
+                "wastedTime": 0.022625207901000978
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073467270,
-                "rawEndTime": 1571073467439,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075709822,
+                "rawEndTime": 1571075709990,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0324862003326416
+                "wastedTime": 0.01873443412780762
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073470444,
-                "rawEndTime": 1571073471910,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075712994,
+                "rawEndTime": 1571075713298,
                 "thinkTime": 0.0,
-                "wastedTime": 0.020842313766479493
+                "wastedTime": 0.022104263305664064
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073471918,
-                "rawEndTime": 1571073472076,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075716307,
+                "rawEndTime": 1571075716479,
                 "thinkTime": 0.0,
-                "wastedTime": 0.023060705184936526
+                "wastedTime": 0.01841225814819336
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073475080,
-                "rawEndTime": 1571073475368,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075719484,
+                "rawEndTime": 1571075719765,
                 "thinkTime": 0.0,
-                "wastedTime": 0.024500608444213868
+                "wastedTime": 0.022993087768554689
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073475376,
-                "rawEndTime": 1571073475521,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075722774,
+                "rawEndTime": 1571075722961,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01647360420227051
+                "wastedTime": 0.02636885643005371
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073478526,
-                "rawEndTime": 1571073479233,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075725965,
+                "rawEndTime": 1571075726261,
                 "thinkTime": 0.0,
-                "wastedTime": 0.020473718643188478
+                "wastedTime": 0.02473139762878418
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073479241,
-                "rawEndTime": 1571073479385,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075729270,
+                "rawEndTime": 1571075729430,
                 "thinkTime": 0.0,
-                "wastedTime": 0.015912843704223635
+                "wastedTime": 0.016870809555053713
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073482390,
-                "rawEndTime": 1571073482758,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075732434,
+                "rawEndTime": 1571075732819,
                 "thinkTime": 0.0,
-                "wastedTime": 0.021849393844604493
+                "wastedTime": 0.020862102508544923
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073482765,
-                "rawEndTime": 1571073483388,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075735829,
+                "rawEndTime": 1571075736048,
                 "thinkTime": 0.0,
-                "wastedTime": 0.03405570983886719
+                "wastedTime": 0.017010522842407229
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073486393,
-                "rawEndTime": 1571073488157,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075739053,
+                "rawEndTime": 1571075739338,
                 "thinkTime": 0.0,
-                "wastedTime": 0.022704601287841798
+                "wastedTime": 0.024148225784301759
             },
             {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073488165,
-                "rawEndTime": 1571073488326,
+                "transactionName": "Refresh",
+                "rawStartTime": 1571075742347,
+                "rawEndTime": 1571075742507,
                 "thinkTime": 0.0,
-                "wastedTime": 0.026013042449951175
+                "wastedTime": 0.016824079513549807
             },
             {
-                "transactionName": "submit",
-                "rawStartTime": 1571073491331,
-                "rawEndTime": 1571073491611,
+                "transactionName": "Submit",
+                "rawStartTime": 1571075745512,
+                "rawEndTime": 1571075745675,
                 "thinkTime": 0.0,
-                "wastedTime": 0.024078845977783204
-            },
-            {
-                "transactionName": "refresh",
-                "rawStartTime": 1571073491619,
-                "rawEndTime": 1571073491810,
-                "thinkTime": 0.0,
-                "wastedTime": 0.040992881774902348
-            },
-            {
-                "transactionName": "submit",
-                "rawStartTime": 1571073494815,
-                "rawEndTime": 1571073494995,
-                "thinkTime": 0.0,
-                "wastedTime": 0.018944263458251954
+                "wastedTime": 0.019205093383789064
             }
         ]
     }

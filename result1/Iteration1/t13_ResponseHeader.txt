@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
 Server: nginx
-Date: Mon, 14 Oct 2019 17:17:54 GMT
+Date: Mon, 14 Oct 2019 17:55:21 GMT
 Content-Type: text/html; charset=utf-8
-Content-Length: 1708
+Content-Length: 1564
 Connection: keep-alive
 

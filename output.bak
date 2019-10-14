@@ -1,4 +1,4 @@
-Virtual User Script started at: 14.10.2019 20:17:06
+Virtual User Script started at: 14.10.2019 20:38:54
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -15,49 +15,64 @@ Action.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
 Action.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
 Action.c(6): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
 Action.c(6): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-Action.c(8): Notify: Transaction "1_transaction" started.
+Action.c(8): Notify: Transaction "Enter" started.
 Action.c(10): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
 Action.c(10): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
 Action.c(12): web_url("test.youplace.net") started  	[MsgId: MMSG-26355]
 Action.c(12): web_url("test.youplace.net") was successful, 1375 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
 Action.c(21): web_link("Start test") started  	[MsgId: MMSG-26355]
 Action.c(21): Linking to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27994]
-Action.c(21): web_link("Start test") was successful, 1550 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
-Action.c(26): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 1,0899 Wasted Time: 0,1057).
-Action.c(28): lr_think_time: 3,00 seconds.
-Action.c(32): Notify: Saving Parameter "interation = 1".
-Action.c(34): Notify: Transaction "refresh" started.
+Action.c(21): web_link("Start test") was successful, 2316 body bytes, 163 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(26): Notify: Transaction "Enter" ended with a "Pass" status (Duration: 1,0511 Wasted Time: 0,0997).
+Action.c(30): lr_think_time: 3,00 seconds.
+Action.c(32): Notify: Transaction "Refresh" started.
+Action.c(34): Notify: Saving Parameter "interation = 1".
 Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(44): web_url("1") started  	[MsgId: MMSG-26355]
 Action.c(44): Notify: Parameter Substitution: parameter "interation" =  "1"
 Action.c(44): Notify: Saving Parameter "parse = 
     
-    <p><input type="radio" name="zRuFE5dfiBFP95Wf" value="o5hBGXLBRzzuV">o5hBGXLBRzzuV &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="TcaNzhqQ">TcaNzhqQ &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="1LnTLfrDe">1LnTLfrDe &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="NSqcBS9">NSqcBS9 &nbsp;&nbsp;&nbsp;</p>
+    <p><input type="radio" name="560CyA4OBbdM06NN" value="Jd187Lt">Jd187Lt &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="nqM7UdofWJ">nqM7UdofWJ &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="iB1Un6x5">iB1Un6x5 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="TT124S4yNi2QK7">TT124S4yNi2QK7 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="27Flxw3">27Flxw3 &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><select name="LWyTXGgurLXCkBwi"><option value=""></option><option value="cq3kW0n">cq3kW0n</option><option value="wgoeCbBjaT">wgoeCbBjaT</option><option value="UgoWxezVVj">UgoWxezVVj</option><option value="qNAK6ueZzG">qNAK6ueZzG</option><option value="WrxRdV0gCwkJ2">WrxRdV0gCwkJ2</option></select></p>
+    
+    <p><select name="0ebyuHwYlM45gckh"><option value=""></option><option value="Kyhh56vu">Kyhh56vu</option><option value="L2Gk3sCXi1tvyhK">L2Gk3sCXi1tvyhK</option></select></p>
+    
+    <p><select name="xJm39BqgiBHDdsWM"><option value=""></option><option value="Jy7t0bPoCM8dI">Jy7t0bPoCM8dI</option><option value="IHzUKSjPt">IHzUKSjPt</option></select></p>
     
     <p><button type="submit">Submit</button></p>
 ".
-Action.c(44): web_url("1") was successful, 1550 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Action.c(44): web_url("1") was successful, 2316 body bytes, 163 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
     
-    <p><input type="radio" name="zRuFE5dfiBFP95Wf" value="o5hBGXLBRzzuV">o5hBGXLBRzzuV &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="TcaNzhqQ">TcaNzhqQ &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="1LnTLfrDe">1LnTLfrDe &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="NSqcBS9">NSqcBS9 &nbsp;&nbsp;&nbsp;</p>
+    <p><input type="radio" name="560CyA4OBbdM06NN" value="Jd187Lt">Jd187Lt &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="nqM7UdofWJ">nqM7UdofWJ &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="iB1Un6x5">iB1Un6x5 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="TT124S4yNi2QK7">TT124S4yNi2QK7 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="27Flxw3">27Flxw3 &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><select name="LWyTXGgurLXCkBwi"><option value=""></option><option value="cq3kW0n">cq3kW0n</option><option value="wgoeCbBjaT">wgoeCbBjaT</option><option value="UgoWxezVVj">UgoWxezVVj</option><option value="qNAK6ueZzG">qNAK6ueZzG</option><option value="WrxRdV0gCwkJ2">WrxRdV0gCwkJ2</option></select></p>
+    
+    <p><select name="0ebyuHwYlM45gckh"><option value=""></option><option value="Kyhh56vu">Kyhh56vu</option><option value="L2Gk3sCXi1tvyhK">L2Gk3sCXi1tvyhK</option></select></p>
+    
+    <p><select name="xJm39BqgiBHDdsWM"><option value=""></option><option value="Jy7t0bPoCM8dI">Jy7t0bPoCM8dI</option><option value="IHzUKSjPt">IHzUKSjPt</option></select></p>
     
     <p><button type="submit">Submit</button></p>
 "
 Extras.c(9): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings_1], size of buffer to scan: [434].
-Extras.c(9): Notify: Saving Parameter "PStrings_1_1 = <input type="radio" name="zRuFE5dfiBFP95Wf" value="o5hBGXLBRzzuV">o5hBGXLBRzzuV &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="TcaNzhqQ">TcaNzhqQ &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="1LnTLfrDe">1LnTLfrDe &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="NSqcBS9">NSqcBS9 &nbsp;&nbsp;&nbsp;".
-Extras.c(9): Notify: Saving Parameter "PStrings_1_2 = <button type="submit">Submit</button>".
-Extras.c(9): Notify: Saving Parameter "PStrings_1_count = 2".
+Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings_1], size of buffer to scan: [1200].
+Extras.c(9): Notify: Saving Parameter "PStrings_1_1 = <input type="radio" name="560CyA4OBbdM06NN" value="Jd187Lt">Jd187Lt &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="nqM7UdofWJ">nqM7UdofWJ &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="iB1Un6x5">iB1Un6x5 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="TT124S4yNi2QK7">TT124S4yNi2QK7 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="27Flxw3">27Flxw3 &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_1_2 = <select name="LWyTXGgurLXCkBwi"><option value=""></option><option value="cq3kW0n">cq3kW0n</option><option value="wgoeCbBjaT">wgoeCbBjaT</option><option value="UgoWxezVVj">UgoWxezVVj</option><option value="qNAK6ueZzG">qNAK6ueZzG</option><option value="WrxRdV0gCwkJ2">WrxRdV0gCwkJ2</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_1_3 = <select name="0ebyuHwYlM45gckh"><option value=""></option><option value="Kyhh56vu">Kyhh56vu</option><option value="L2Gk3sCXi1tvyhK">L2Gk3sCXi1tvyhK</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_1_4 = <select name="xJm39BqgiBHDdsWM"><option value=""></option><option value="Jy7t0bPoCM8dI">Jy7t0bPoCM8dI</option><option value="IHzUKSjPt">IHzUKSjPt</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_1_5 = <button type="submit">Submit</button>".
+Extras.c(9): Notify: Saving Parameter "PStrings_1_count = 5".
 Extras.c(17): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_1_count" =  "2"
-2 match(es) found.
+Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_1_count" =  "5"
+5 match(es) found.
 Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_1" =  "<input type="radio" name="zRuFE5dfiBFP95Wf" value="o5hBGXLBRzzuV">o5hBGXLBRzzuV &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="TcaNzhqQ">TcaNzhqQ &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="1LnTLfrDe">1LnTLfrDe &nbsp;&nbsp;&nbsp;<input type="radio" name="zRuFE5dfiBFP95Wf" value="NSqcBS9">NSqcBS9 &nbsp;&nbsp;&nbsp;"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_1" =  "<input type="radio" name="560CyA4OBbdM06NN" value="Jd187Lt">Jd187Lt &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="nqM7UdofWJ">nqM7UdofWJ &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="iB1Un6x5">iB1Un6x5 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="TT124S4yNi2QK7">TT124S4yNi2QK7 &nbsp;&nbsp;&nbsp;<input type="radio" name="560CyA4OBbdM06NN" value="27Flxw3">27Flxw3 &nbsp;&nbsp;&nbsp;"
 Extras.c(25): Notify: Saving Parameter "ordinal = 1".
 Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_1], size of buffer to scan: [362].
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_1], size of buffer to scan: [452].
 Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
 Extras.c(36): Warning: The string 'inputName_1_1' with parameter delimiters is not a parameter.
@@ -65,7 +80,7 @@ Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
 Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_1], size of buffer to scan: [362].
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_1], size of buffer to scan: [452].
 Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "1"
 Extras.c(52): Warning: The string 'inputName_1_1' with parameter delimiters is not a parameter.
@@ -73,35 +88,39 @@ Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "1"
 Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_1_1], size of buffer to scan: [362].
-Extras.c(61): Notify: Saving Parameter "inputName_1_1 = zRuFE5dfiBFP95Wf".
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_1_1], size of buffer to scan: [452].
+Extras.c(61): Notify: Saving Parameter "inputName_1_1 = 560CyA4OBbdM06NN".
 Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(69): Notify: Parameter Substitution: parameter "inputName_1_1" =  "zRuFE5dfiBFP95Wf"
+Extras.c(69): Notify: Parameter Substitution: parameter "inputName_1_1" =  "560CyA4OBbdM06NN"
 Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "1"
 LOG: This is a radio
-Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [362].
-Extras.c(89): Notify: Saving Parameter "selectValues_1 = o5hBGXLBRzzuV".
-Extras.c(89): Notify: Saving Parameter "selectValues_2 = TcaNzhqQ".
-Extras.c(89): Notify: Saving Parameter "selectValues_3 = 1LnTLfrDe".
-Extras.c(89): Notify: Saving Parameter "selectValues_4 = NSqcBS9".
-Extras.c(89): Notify: Saving Parameter "selectValues_count = 4".
-Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "4"
-Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "o5hBGXLBRzzuV"
-Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "o5hBGXLBRzzuV"
-Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "TcaNzhqQ"
-Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "1LnTLfrDe"
-Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "NSqcBS9"
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [452].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = Jd187Lt".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = nqM7UdofWJ".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = iB1Un6x5".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = TT124S4yNi2QK7".
+Extras.c(89): Notify: Saving Parameter "selectValues_5 = 27Flxw3".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 5".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "5"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "Jd187Lt"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "Jd187Lt"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "nqM7UdofWJ"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "nqM7UdofWJ"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "iB1Un6x5"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "TT124S4yNi2QK7"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_4" =  "TT124S4yNi2QK7"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_5" =  "27Flxw3"
 Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "1"
-Extras.c(106): Notify: Saving Parameter "inputValue_1_1 = o5hBGXLBRzzuV".
+Extras.c(106): Notify: Saving Parameter "inputValue_1_1 = TT124S4yNi2QK7".
 Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_2" =  "<button type="submit">Submit</button>"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_2" =  "<select name="LWyTXGgurLXCkBwi"><option value=""></option><option value="cq3kW0n">cq3kW0n</option><option value="wgoeCbBjaT">wgoeCbBjaT</option><option value="UgoWxezVVj">UgoWxezVVj</option><option value="qNAK6ueZzG">qNAK6ueZzG</option><option value="WrxRdV0gCwkJ2">WrxRdV0gCwkJ2</option></select>"
 Extras.c(25): Notify: Saving Parameter "ordinal = 2".
 Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_2], size of buffer to scan: [37].
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_2], size of buffer to scan: [297].
 Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
 Extras.c(36): Warning: The string 'inputName_1_2' with parameter delimiters is not a parameter.
@@ -109,24 +128,1031 @@ Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
 Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_2], size of buffer to scan: [37].
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_2], size of buffer to scan: [297].
+Extras.c(44): Notify: Saving Parameter "inputName_1_2 = LWyTXGgurLXCkBwi".
 Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(52): Warning: The string 'inputName_1_2' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_1_2" =  "LWyTXGgurLXCkBwi"
 Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
 Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+LOG: This is a select
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [297].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = cq3kW0n".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = wgoeCbBjaT".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = UgoWxezVVj".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = qNAK6ueZzG".
+Extras.c(89): Notify: Saving Parameter "selectValues_5 = WrxRdV0gCwkJ2".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 5".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "5"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "cq3kW0n"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "cq3kW0n"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "wgoeCbBjaT"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "wgoeCbBjaT"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "UgoWxezVVj"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "qNAK6ueZzG"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_5" =  "WrxRdV0gCwkJ2"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_5" =  "WrxRdV0gCwkJ2"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(106): Notify: Saving Parameter "inputValue_1_2 = WrxRdV0gCwkJ2".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_3" =  "<select name="0ebyuHwYlM45gckh"><option value=""></option><option value="Kyhh56vu">Kyhh56vu</option><option value="L2Gk3sCXi1tvyhK">L2Gk3sCXi1tvyhK</option></select>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 3".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_3], size of buffer to scan: [165].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Warning: The string 'inputName_1_3' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_3], size of buffer to scan: [165].
+Extras.c(44): Notify: Saving Parameter "inputName_1_3 = 0ebyuHwYlM45gckh".
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_1_3" =  "0ebyuHwYlM45gckh"
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+LOG: This is a select
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [165].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = Kyhh56vu".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = L2Gk3sCXi1tvyhK".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 2".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "2"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "Kyhh56vu"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "Kyhh56vu"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "L2Gk3sCXi1tvyhK"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "L2Gk3sCXi1tvyhK"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(106): Notify: Saving Parameter "inputValue_1_3 = L2Gk3sCXi1tvyhK".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_4" =  "<select name="xJm39BqgiBHDdsWM"><option value=""></option><option value="Jy7t0bPoCM8dI">Jy7t0bPoCM8dI</option><option value="IHzUKSjPt">IHzUKSjPt</option></select>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 4".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_4], size of buffer to scan: [163].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(36): Warning: The string 'inputName_1_4' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_4], size of buffer to scan: [163].
+Extras.c(44): Notify: Saving Parameter "inputName_1_4 = xJm39BqgiBHDdsWM".
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_1_4" =  "xJm39BqgiBHDdsWM"
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+LOG: This is a select
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [163].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = Jy7t0bPoCM8dI".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = IHzUKSjPt".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 2".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "2"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "Jy7t0bPoCM8dI"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "Jy7t0bPoCM8dI"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "IHzUKSjPt"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(106): Notify: Saving Parameter "inputValue_1_4 = Jy7t0bPoCM8dI".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_1_5" =  "<button type="submit">Submit</button>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 5".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_5], size of buffer to scan: [37].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(36): Warning: The string 'inputName_1_5' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_1_5], size of buffer to scan: [37].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(52): Warning: The string 'inputName_1_5' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "5"
 Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_1_2], size of buffer to scan: [37].
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_1_5], size of buffer to scan: [37].
 Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "2"
-Extras.c(69): Warning: The string 'inputName_1_2' with parameter delimiters is not a parameter.
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(69): Warning: The string 'inputName_1_5' with parameter delimiters is not a parameter.
 Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "1"
-Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "5"
 LOG: another type
-Action.c(55): Notify: Transaction "refresh" ended with a "Pass" status (Duration: 0,1471 Wasted Time: 0,0152).
+Action.c(55): Notify: Transaction "Refresh" ended with a "Pass" status (Duration: 0,1822 Wasted Time: 0,0202).
 Action.c(57): lr_think_time: 3,00 seconds.
-Abort was called from an action.
+Action.c(59): Notify: Transaction "Submit" started.
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputName_1_1" =  "560CyA4OBbdM06NN"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputValue_1_1" =  "TT124S4yNi2QK7"
+Extras.c(115): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(115): Notify: Parameter Substitution: parameter "PStrings_1_count" =  "5"
+Extras.c(118): Notify: Saving Parameter "ordinal = 2".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_1_2" =  "LWyTXGgurLXCkBwi"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_1_2" =  "WrxRdV0gCwkJ2"
+Extras.c(118): Notify: Saving Parameter "ordinal = 3".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_1_3" =  "0ebyuHwYlM45gckh"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_1_3" =  "L2Gk3sCXi1tvyhK"
+Extras.c(118): Notify: Saving Parameter "ordinal = 4".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "1"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_1_4" =  "xJm39BqgiBHDdsWM"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_1_4" =  "Jy7t0bPoCM8dI"
+LOG: Body=560CyA4OBbdM06NN=TT124S4yNi2QK7&LWyTXGgurLXCkBwi=WrxRdV0gCwkJ2&0ebyuHwYlM45gckh=L2Gk3sCXi1tvyhK&xJm39BqgiBHDdsWM=Jy7t0bPoCM8dI
+Extras.c(124): Notify: Saving Parameter "submitFormBody = Body=560CyA4OBbdM06NN=TT124S4yNi2QK7&LWyTXGgurLXCkBwi=WrxRdV0gCwkJ2&0ebyuHwYlM45gckh=L2Gk3sCXi1tvyhK&xJm39BqgiBHDdsWM=Jy7t0bPoCM8dI".
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(67): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): Notify: Parameter Substitution: parameter "submitFormBody" =  "Body=560CyA4OBbdM06NN=TT124S4yNi2QK7&LWyTXGgurLXCkBwi=WrxRdV0gCwkJ2&0ebyuHwYlM45gckh=L2Gk3sCXi1tvyhK&xJm39BqgiBHDdsWM=Jy7t0bPoCM8dI"
+Action.c(72): web_custom_request("1_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "1"
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "1"
+Action.c(72): Redirecting "http://test.youplace.net/question/1" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(72): To location "http://test.youplace.net/question/2"  	[MsgId: MMSG-26693]
+Action.c(72): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "succes_count = 0".
+Action.c(72): Registered web_reg_find successful for "Text=ERROR: one or several values are incorrect"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "error_count = 0".
+Action.c(72): web_custom_request("1_2") was successful, 2218 body bytes, 303 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(83): Notify: Parameter Substitution: parameter "succes_count" =  "0"
+Action.c(87): Notify: Parameter Substitution: parameter "error_count" =  "0"
+Action.c(92): Notify: Transaction "Submit" ended with a "Pass" status (Duration: 0,3886 Wasted Time: 0,0243).
+Action.c(30): lr_think_time: 3,00 seconds.
+Action.c(32): Notify: Transaction "Refresh" started.
+Action.c(34): Notify: Saving Parameter "interation = 2".
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_url("1") started  	[MsgId: MMSG-26355]
+Action.c(44): Notify: Parameter Substitution: parameter "interation" =  "2"
+Action.c(44): Notify: Saving Parameter "parse = 
+    
+    <p><input type="radio" name="4mswX7WIUJmeowDe" value="WkUVKXCX">WkUVKXCX &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="L96PLZEHJo">L96PLZEHJo &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="ee2DlAMaa">ee2DlAMaa &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="AZ5H4w6hdtgvrDb">AZ5H4w6hdtgvrDb &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="owgPmEiwuK0VL3rO" value="xH5aECeBf">xH5aECeBf &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="WETPA89Qle">WETPA89Qle &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="hPGWGnMJn0QZr">hPGWGnMJn0QZr &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="TtMJUjD9gi">TtMJUjD9gi &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="text" name="tQkpsXiWoJdBGDLb"></p>
+    
+    <p><input type="radio" name="5REwzVkNspOL5okw" value="cPSbyllb">cPSbyllb &nbsp;&nbsp;&nbsp;<input type="radio" name="5REwzVkNspOL5okw" value="Z1lCNGmeevyisJNR">Z1lCNGmeevyisJNR &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><button type="submit">Submit</button></p>
+".
+Action.c(44): web_url("1") was successful, 2218 body bytes, 163 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
+    
+    <p><input type="radio" name="4mswX7WIUJmeowDe" value="WkUVKXCX">WkUVKXCX &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="L96PLZEHJo">L96PLZEHJo &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="ee2DlAMaa">ee2DlAMaa &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="AZ5H4w6hdtgvrDb">AZ5H4w6hdtgvrDb &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="owgPmEiwuK0VL3rO" value="xH5aECeBf">xH5aECeBf &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="WETPA89Qle">WETPA89Qle &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="hPGWGnMJn0QZr">hPGWGnMJn0QZr &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="TtMJUjD9gi">TtMJUjD9gi &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="text" name="tQkpsXiWoJdBGDLb"></p>
+    
+    <p><input type="radio" name="5REwzVkNspOL5okw" value="cPSbyllb">cPSbyllb &nbsp;&nbsp;&nbsp;<input type="radio" name="5REwzVkNspOL5okw" value="Z1lCNGmeevyisJNR">Z1lCNGmeevyisJNR &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><button type="submit">Submit</button></p>
+"
+Extras.c(9): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings_2], size of buffer to scan: [1102].
+Extras.c(9): Notify: Saving Parameter "PStrings_2_1 = <input type="radio" name="4mswX7WIUJmeowDe" value="WkUVKXCX">WkUVKXCX &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="L96PLZEHJo">L96PLZEHJo &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="ee2DlAMaa">ee2DlAMaa &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="AZ5H4w6hdtgvrDb">AZ5H4w6hdtgvrDb &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_2_2 = <input type="radio" name="owgPmEiwuK0VL3rO" value="xH5aECeBf">xH5aECeBf &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="WETPA89Qle">WETPA89Qle &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="hPGWGnMJn0QZr">hPGWGnMJn0QZr &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="TtMJUjD9gi">TtMJUjD9gi &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_2_3 = <input type="text" name="tQkpsXiWoJdBGDLb">".
+Extras.c(9): Notify: Saving Parameter "PStrings_2_4 = <input type="radio" name="5REwzVkNspOL5okw" value="cPSbyllb">cPSbyllb &nbsp;&nbsp;&nbsp;<input type="radio" name="5REwzVkNspOL5okw" value="Z1lCNGmeevyisJNR">Z1lCNGmeevyisJNR &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_2_5 = <button type="submit">Submit</button>".
+Extras.c(9): Notify: Saving Parameter "PStrings_2_count = 5".
+Extras.c(17): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_2_count" =  "5"
+5 match(es) found.
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_2_1" =  "<input type="radio" name="4mswX7WIUJmeowDe" value="WkUVKXCX">WkUVKXCX &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="L96PLZEHJo">L96PLZEHJo &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="ee2DlAMaa">ee2DlAMaa &nbsp;&nbsp;&nbsp;<input type="radio" name="4mswX7WIUJmeowDe" value="AZ5H4w6hdtgvrDb">AZ5H4w6hdtgvrDb &nbsp;&nbsp;&nbsp;"
+Extras.c(25): Notify: Saving Parameter "ordinal = 1".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_1], size of buffer to scan: [372].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(36): Warning: The string 'inputName_2_1' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_1], size of buffer to scan: [372].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(52): Warning: The string 'inputName_2_1' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_2_1], size of buffer to scan: [372].
+Extras.c(61): Notify: Saving Parameter "inputName_2_1 = 4mswX7WIUJmeowDe".
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(69): Notify: Parameter Substitution: parameter "inputName_2_1" =  "4mswX7WIUJmeowDe"
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+LOG: This is a radio
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [372].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = WkUVKXCX".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = L96PLZEHJo".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = ee2DlAMaa".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = AZ5H4w6hdtgvrDb".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 4".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "4"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "WkUVKXCX"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "WkUVKXCX"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "L96PLZEHJo"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "L96PLZEHJo"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "ee2DlAMaa"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "AZ5H4w6hdtgvrDb"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_4" =  "AZ5H4w6hdtgvrDb"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(106): Notify: Saving Parameter "inputValue_2_1 = AZ5H4w6hdtgvrDb".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_2_2" =  "<input type="radio" name="owgPmEiwuK0VL3rO" value="xH5aECeBf">xH5aECeBf &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="WETPA89Qle">WETPA89Qle &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="hPGWGnMJn0QZr">hPGWGnMJn0QZr &nbsp;&nbsp;&nbsp;<input type="radio" name="owgPmEiwuK0VL3rO" value="TtMJUjD9gi">TtMJUjD9gi &nbsp;&nbsp;&nbsp;"
+Extras.c(25): Notify: Saving Parameter "ordinal = 2".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_2], size of buffer to scan: [372].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(36): Warning: The string 'inputName_2_2' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_2], size of buffer to scan: [372].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(52): Warning: The string 'inputName_2_2' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_2_2], size of buffer to scan: [372].
+Extras.c(61): Notify: Saving Parameter "inputName_2_2 = owgPmEiwuK0VL3rO".
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "inputName_2_2" =  "owgPmEiwuK0VL3rO"
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+LOG: This is a radio
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [372].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = xH5aECeBf".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = WETPA89Qle".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = hPGWGnMJn0QZr".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = TtMJUjD9gi".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 4".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "4"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "xH5aECeBf"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "xH5aECeBf"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "WETPA89Qle"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "WETPA89Qle"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "hPGWGnMJn0QZr"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_3" =  "hPGWGnMJn0QZr"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "TtMJUjD9gi"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(106): Notify: Saving Parameter "inputValue_2_2 = hPGWGnMJn0QZr".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_2_3" =  "<input type="text" name="tQkpsXiWoJdBGDLb">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 3".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_3], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_2_3 = tQkpsXiWoJdBGDLb".
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_2_3" =  "tQkpsXiWoJdBGDLb"
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(38): Notify: Saving Parameter "inputValue_2_3 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_2_4" =  "<input type="radio" name="5REwzVkNspOL5okw" value="cPSbyllb">cPSbyllb &nbsp;&nbsp;&nbsp;<input type="radio" name="5REwzVkNspOL5okw" value="Z1lCNGmeevyisJNR">Z1lCNGmeevyisJNR &nbsp;&nbsp;&nbsp;"
+Extras.c(25): Notify: Saving Parameter "ordinal = 4".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_4], size of buffer to scan: [192].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(36): Warning: The string 'inputName_2_4' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_4], size of buffer to scan: [192].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(52): Warning: The string 'inputName_2_4' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_2_4], size of buffer to scan: [192].
+Extras.c(61): Notify: Saving Parameter "inputName_2_4 = 5REwzVkNspOL5okw".
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(69): Notify: Parameter Substitution: parameter "inputName_2_4" =  "5REwzVkNspOL5okw"
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+LOG: This is a radio
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [192].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = cPSbyllb".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = Z1lCNGmeevyisJNR".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 2".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "2"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "cPSbyllb"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "cPSbyllb"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "Z1lCNGmeevyisJNR"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "Z1lCNGmeevyisJNR"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(106): Notify: Saving Parameter "inputValue_2_4 = Z1lCNGmeevyisJNR".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_2_5" =  "<button type="submit">Submit</button>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 5".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_5], size of buffer to scan: [37].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(36): Warning: The string 'inputName_2_5' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_2_5], size of buffer to scan: [37].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(52): Warning: The string 'inputName_2_5' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_2_5], size of buffer to scan: [37].
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+Extras.c(69): Warning: The string 'inputName_2_5' with parameter delimiters is not a parameter.
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "5"
+LOG: another type
+Action.c(55): Notify: Transaction "Refresh" ended with a "Pass" status (Duration: 0,1707 Wasted Time: 0,0204).
+Action.c(57): lr_think_time: 3,00 seconds.
+Action.c(59): Notify: Transaction "Submit" started.
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputName_2_1" =  "4mswX7WIUJmeowDe"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputValue_2_1" =  "AZ5H4w6hdtgvrDb"
+Extras.c(115): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(115): Notify: Parameter Substitution: parameter "PStrings_2_count" =  "5"
+Extras.c(118): Notify: Saving Parameter "ordinal = 2".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_2_2" =  "owgPmEiwuK0VL3rO"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_2_2" =  "hPGWGnMJn0QZr"
+Extras.c(118): Notify: Saving Parameter "ordinal = 3".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_2_3" =  "tQkpsXiWoJdBGDLb"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_2_3" =  "test"
+Extras.c(118): Notify: Saving Parameter "ordinal = 4".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_2_4" =  "5REwzVkNspOL5okw"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_2_4" =  "Z1lCNGmeevyisJNR"
+LOG: Body=4mswX7WIUJmeowDe=AZ5H4w6hdtgvrDb&owgPmEiwuK0VL3rO=hPGWGnMJn0QZr&tQkpsXiWoJdBGDLb=test&5REwzVkNspOL5okw=Z1lCNGmeevyisJNR
+Extras.c(124): Notify: Saving Parameter "submitFormBody = Body=4mswX7WIUJmeowDe=AZ5H4w6hdtgvrDb&owgPmEiwuK0VL3rO=hPGWGnMJn0QZr&tQkpsXiWoJdBGDLb=test&5REwzVkNspOL5okw=Z1lCNGmeevyisJNR".
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(67): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): Notify: Parameter Substitution: parameter "submitFormBody" =  "Body=4mswX7WIUJmeowDe=AZ5H4w6hdtgvrDb&owgPmEiwuK0VL3rO=hPGWGnMJn0QZr&tQkpsXiWoJdBGDLb=test&5REwzVkNspOL5okw=Z1lCNGmeevyisJNR"
+Action.c(72): web_custom_request("1_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "2"
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "2"
+Action.c(72): Redirecting "http://test.youplace.net/question/2" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(72): To location "http://test.youplace.net/question/3"  	[MsgId: MMSG-26693]
+Action.c(72): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "succes_count = 0".
+Action.c(72): Registered web_reg_find successful for "Text=ERROR: one or several values are incorrect"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "error_count = 0".
+Action.c(72): web_custom_request("1_2") was successful, 1601 body bytes, 297 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Parameter Substitution: parameter "succes_count" =  "0"
+Action.c(87): Notify: Parameter Substitution: parameter "error_count" =  "0"
+Action.c(92): Notify: Transaction "Submit" ended with a "Pass" status (Duration: 0,8360 Wasted Time: 0,0236).
+Action.c(30): lr_think_time: 3,00 seconds.
+Action.c(32): Notify: Transaction "Refresh" started.
+Action.c(34): Notify: Saving Parameter "interation = 3".
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_url("1") started  	[MsgId: MMSG-26355]
+Action.c(44): Notify: Parameter Substitution: parameter "interation" =  "3"
+Action.c(44): Notify: Saving Parameter "parse = 
+    
+    <p><input type="text" name="9vQJtu5qk2L0dwDW"></p>
+    
+    <p><input type="text" name="McaIUkl0VK6ZR7Tv"></p>
+    
+    <p><select name="ysXL8w9JmfXY66jt"><option value=""></option><option value="LTCJfAf3c">LTCJfAf3c</option><option value="D9R4B9MNw">D9R4B9MNw</option><option value="8fmG0HsP">8fmG0HsP</option><option value="0zYLNL6fs40hsZ">0zYLNL6fs40hsZ</option><option value="9KIjoRFl">9KIjoRFl</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+".
+Action.c(44): web_url("1") was successful, 1601 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
+    
+    <p><input type="text" name="9vQJtu5qk2L0dwDW"></p>
+    
+    <p><input type="text" name="McaIUkl0VK6ZR7Tv"></p>
+    
+    <p><select name="ysXL8w9JmfXY66jt"><option value=""></option><option value="LTCJfAf3c">LTCJfAf3c</option><option value="D9R4B9MNw">D9R4B9MNw</option><option value="8fmG0HsP">8fmG0HsP</option><option value="0zYLNL6fs40hsZ">0zYLNL6fs40hsZ</option><option value="9KIjoRFl">9KIjoRFl</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+"
+Extras.c(9): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings_3], size of buffer to scan: [485].
+Extras.c(9): Notify: Saving Parameter "PStrings_3_1 = <input type="text" name="9vQJtu5qk2L0dwDW">".
+Extras.c(9): Notify: Saving Parameter "PStrings_3_2 = <input type="text" name="McaIUkl0VK6ZR7Tv">".
+Extras.c(9): Notify: Saving Parameter "PStrings_3_3 = <select name="ysXL8w9JmfXY66jt"><option value=""></option><option value="LTCJfAf3c">LTCJfAf3c</option><option value="D9R4B9MNw">D9R4B9MNw</option><option value="8fmG0HsP">8fmG0HsP</option><option value="0zYLNL6fs40hsZ">0zYLNL6fs40hsZ</option><option value="9KIjoRFl">9KIjoRFl</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_3_4 = <button type="submit">Submit</button>".
+Extras.c(9): Notify: Saving Parameter "PStrings_3_count = 4".
+Extras.c(17): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_3_count" =  "4"
+4 match(es) found.
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_3_1" =  "<input type="text" name="9vQJtu5qk2L0dwDW">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 1".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3_1], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_3_1 = 9vQJtu5qk2L0dwDW".
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_3_1" =  "9vQJtu5qk2L0dwDW"
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(38): Notify: Saving Parameter "inputValue_3_1 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_3_2" =  "<input type="text" name="McaIUkl0VK6ZR7Tv">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 2".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3_2], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_3_2 = McaIUkl0VK6ZR7Tv".
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_3_2" =  "McaIUkl0VK6ZR7Tv"
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(38): Notify: Saving Parameter "inputValue_3_2 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_3_3" =  "<select name="ysXL8w9JmfXY66jt"><option value=""></option><option value="LTCJfAf3c">LTCJfAf3c</option><option value="D9R4B9MNw">D9R4B9MNw</option><option value="8fmG0HsP">8fmG0HsP</option><option value="0zYLNL6fs40hsZ">0zYLNL6fs40hsZ</option><option value="9KIjoRFl">9KIjoRFl</option></select>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 3".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3_3], size of buffer to scan: [293].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Warning: The string 'inputName_3_3' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3_3], size of buffer to scan: [293].
+Extras.c(44): Notify: Saving Parameter "inputName_3_3 = ysXL8w9JmfXY66jt".
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_3_3" =  "ysXL8w9JmfXY66jt"
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+LOG: This is a select
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [293].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = LTCJfAf3c".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = D9R4B9MNw".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = 8fmG0HsP".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = 0zYLNL6fs40hsZ".
+Extras.c(89): Notify: Saving Parameter "selectValues_5 = 9KIjoRFl".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 5".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "5"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "LTCJfAf3c"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "LTCJfAf3c"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "D9R4B9MNw"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "8fmG0HsP"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "0zYLNL6fs40hsZ"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_4" =  "0zYLNL6fs40hsZ"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_5" =  "9KIjoRFl"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(106): Notify: Saving Parameter "inputValue_3_3 = 0zYLNL6fs40hsZ".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_3_4" =  "<button type="submit">Submit</button>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 4".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3_4], size of buffer to scan: [37].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(36): Warning: The string 'inputName_3_4' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_3_4], size of buffer to scan: [37].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(52): Warning: The string 'inputName_3_4' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_3_4], size of buffer to scan: [37].
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(69): Warning: The string 'inputName_3_4' with parameter delimiters is not a parameter.
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+LOG: another type
+Action.c(55): Notify: Transaction "Refresh" ended with a "Pass" status (Duration: 0,5135 Wasted Time: 0,0160).
+Action.c(57): lr_think_time: 3,00 seconds.
+Action.c(59): Notify: Transaction "Submit" started.
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputName_3_1" =  "9vQJtu5qk2L0dwDW"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputValue_3_1" =  "test"
+Extras.c(115): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(115): Notify: Parameter Substitution: parameter "PStrings_3_count" =  "4"
+Extras.c(118): Notify: Saving Parameter "ordinal = 2".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_3_2" =  "McaIUkl0VK6ZR7Tv"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_3_2" =  "test"
+Extras.c(118): Notify: Saving Parameter "ordinal = 3".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_3_3" =  "ysXL8w9JmfXY66jt"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_3_3" =  "0zYLNL6fs40hsZ"
+LOG: Body=9vQJtu5qk2L0dwDW=test&McaIUkl0VK6ZR7Tv=test&ysXL8w9JmfXY66jt=0zYLNL6fs40hsZ
+Extras.c(124): Notify: Saving Parameter "submitFormBody = Body=9vQJtu5qk2L0dwDW=test&McaIUkl0VK6ZR7Tv=test&ysXL8w9JmfXY66jt=0zYLNL6fs40hsZ".
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(67): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): Notify: Parameter Substitution: parameter "submitFormBody" =  "Body=9vQJtu5qk2L0dwDW=test&McaIUkl0VK6ZR7Tv=test&ysXL8w9JmfXY66jt=0zYLNL6fs40hsZ"
+Action.c(72): web_custom_request("1_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "3"
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "3"
+Action.c(72): Redirecting "http://test.youplace.net/question/3" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(72): To location "http://test.youplace.net/question/4"  	[MsgId: MMSG-26693]
+Action.c(72): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "succes_count = 0".
+Action.c(72): Registered web_reg_find successful for "Text=ERROR: one or several values are incorrect"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "error_count = 0".
+Action.c(72): web_custom_request("1_2") was successful, 1595 body bytes, 297 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Parameter Substitution: parameter "succes_count" =  "0"
+Action.c(87): Notify: Parameter Substitution: parameter "error_count" =  "0"
+Action.c(92): Notify: Transaction "Submit" ended with a "Pass" status (Duration: 0,2687 Wasted Time: 0,0227).
+Action.c(30): lr_think_time: 3,00 seconds.
+Action.c(32): Notify: Transaction "Refresh" started.
+Action.c(34): Notify: Saving Parameter "interation = 4".
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_url("1") started  	[MsgId: MMSG-26355]
+Action.c(44): Notify: Parameter Substitution: parameter "interation" =  "4"
+Action.c(44): Notify: Saving Parameter "parse = 
+    
+    <p><input type="text" name="zxHRDEqirer1ukmR"></p>
+    
+    <p><select name="ZNRVyQrKVMyXmvTH"><option value=""></option><option value="xspbrFpITZ7K884A">xspbrFpITZ7K884A</option><option value="nQh01XM">nQh01XM</option></select></p>
+    
+    <p><select name="4TGtXRJLXK6s38UO"><option value=""></option><option value="HDYCnX2H">HDYCnX2H</option><option value="R8cs2e7BIGGeF3a">R8cs2e7BIGGeF3a</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+".
+Action.c(44): web_url("1") was successful, 1595 body bytes, 157 header bytes  	[MsgId: MMSG-26386]
+Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
+    
+    <p><input type="text" name="zxHRDEqirer1ukmR"></p>
+    
+    <p><select name="ZNRVyQrKVMyXmvTH"><option value=""></option><option value="xspbrFpITZ7K884A">xspbrFpITZ7K884A</option><option value="nQh01XM">nQh01XM</option></select></p>
+    
+    <p><select name="4TGtXRJLXK6s38UO"><option value=""></option><option value="HDYCnX2H">HDYCnX2H</option><option value="R8cs2e7BIGGeF3a">R8cs2e7BIGGeF3a</option></select></p>
+    
+    <p><button type="submit">Submit</button></p>
+"
+Extras.c(9): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings_4], size of buffer to scan: [479].
+Extras.c(9): Notify: Saving Parameter "PStrings_4_1 = <input type="text" name="zxHRDEqirer1ukmR">".
+Extras.c(9): Notify: Saving Parameter "PStrings_4_2 = <select name="ZNRVyQrKVMyXmvTH"><option value=""></option><option value="xspbrFpITZ7K884A">xspbrFpITZ7K884A</option><option value="nQh01XM">nQh01XM</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_4_3 = <select name="4TGtXRJLXK6s38UO"><option value=""></option><option value="HDYCnX2H">HDYCnX2H</option><option value="R8cs2e7BIGGeF3a">R8cs2e7BIGGeF3a</option></select>".
+Extras.c(9): Notify: Saving Parameter "PStrings_4_4 = <button type="submit">Submit</button>".
+Extras.c(9): Notify: Saving Parameter "PStrings_4_count = 4".
+Extras.c(17): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_4_count" =  "4"
+4 match(es) found.
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_4_1" =  "<input type="text" name="zxHRDEqirer1ukmR">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 1".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_1], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_4_1 = zxHRDEqirer1ukmR".
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_4_1" =  "zxHRDEqirer1ukmR"
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(38): Notify: Saving Parameter "inputValue_4_1 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_4_2" =  "<select name="ZNRVyQrKVMyXmvTH"><option value=""></option><option value="xspbrFpITZ7K884A">xspbrFpITZ7K884A</option><option value="nQh01XM">nQh01XM</option></select>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 2".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_2], size of buffer to scan: [165].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(36): Warning: The string 'inputName_4_2' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_2], size of buffer to scan: [165].
+Extras.c(44): Notify: Saving Parameter "inputName_4_2 = ZNRVyQrKVMyXmvTH".
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_4_2" =  "ZNRVyQrKVMyXmvTH"
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+LOG: This is a select
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [165].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = xspbrFpITZ7K884A".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = nQh01XM".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 2".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "2"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "xspbrFpITZ7K884A"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "xspbrFpITZ7K884A"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "nQh01XM"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(106): Notify: Saving Parameter "inputValue_4_2 = xspbrFpITZ7K884A".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_4_3" =  "<select name="4TGtXRJLXK6s38UO"><option value=""></option><option value="HDYCnX2H">HDYCnX2H</option><option value="R8cs2e7BIGGeF3a">R8cs2e7BIGGeF3a</option></select>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 3".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_3], size of buffer to scan: [165].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Warning: The string 'inputName_4_3' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_3], size of buffer to scan: [165].
+Extras.c(44): Notify: Saving Parameter "inputName_4_3 = 4TGtXRJLXK6s38UO".
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(52): Notify: Parameter Substitution: parameter "inputName_4_3" =  "4TGtXRJLXK6s38UO"
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+LOG: This is a select
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [165].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = HDYCnX2H".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = R8cs2e7BIGGeF3a".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 2".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "2"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "HDYCnX2H"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "HDYCnX2H"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "R8cs2e7BIGGeF3a"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_2" =  "R8cs2e7BIGGeF3a"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(106): Notify: Saving Parameter "inputValue_4_3 = R8cs2e7BIGGeF3a".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_4_4" =  "<button type="submit">Submit</button>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 4".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_4], size of buffer to scan: [37].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(36): Warning: The string 'inputName_4_4' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_4_4], size of buffer to scan: [37].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(52): Warning: The string 'inputName_4_4' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_4_4], size of buffer to scan: [37].
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(69): Warning: The string 'inputName_4_4' with parameter delimiters is not a parameter.
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+LOG: another type
+Action.c(55): Notify: Transaction "Refresh" ended with a "Pass" status (Duration: 0,1769 Wasted Time: 0,0193).
+Action.c(57): lr_think_time: 3,00 seconds.
+Action.c(59): Notify: Transaction "Submit" started.
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputName_4_1" =  "zxHRDEqirer1ukmR"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputValue_4_1" =  "test"
+Extras.c(115): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(115): Notify: Parameter Substitution: parameter "PStrings_4_count" =  "4"
+Extras.c(118): Notify: Saving Parameter "ordinal = 2".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_4_2" =  "ZNRVyQrKVMyXmvTH"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_4_2" =  "xspbrFpITZ7K884A"
+Extras.c(118): Notify: Saving Parameter "ordinal = 3".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "4"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_4_3" =  "4TGtXRJLXK6s38UO"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_4_3" =  "R8cs2e7BIGGeF3a"
+LOG: Body=zxHRDEqirer1ukmR=test&ZNRVyQrKVMyXmvTH=xspbrFpITZ7K884A&4TGtXRJLXK6s38UO=R8cs2e7BIGGeF3a
+Extras.c(124): Notify: Saving Parameter "submitFormBody = Body=zxHRDEqirer1ukmR=test&ZNRVyQrKVMyXmvTH=xspbrFpITZ7K884A&4TGtXRJLXK6s38UO=R8cs2e7BIGGeF3a".
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(67): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): Notify: Parameter Substitution: parameter "submitFormBody" =  "Body=zxHRDEqirer1ukmR=test&ZNRVyQrKVMyXmvTH=xspbrFpITZ7K884A&4TGtXRJLXK6s38UO=R8cs2e7BIGGeF3a"
+Action.c(72): web_custom_request("1_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "4"
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "4"
+Action.c(72): Redirecting "http://test.youplace.net/question/4" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(72): To location "http://test.youplace.net/question/5"  	[MsgId: MMSG-26693]
+Action.c(72): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "succes_count = 0".
+Action.c(72): Registered web_reg_find successful for "Text=ERROR: one or several values are incorrect"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "error_count = 0".
+Action.c(72): web_custom_request("1_2") was successful, 2085 body bytes, 303 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(83): Notify: Parameter Substitution: parameter "succes_count" =  "0"
+Action.c(87): Notify: Parameter Substitution: parameter "error_count" =  "0"
+Action.c(92): Notify: Transaction "Submit" ended with a "Pass" status (Duration: 0,2714 Wasted Time: 0,0228).
+Action.c(30): lr_think_time: 3,00 seconds.
+Action.c(32): Notify: Transaction "Refresh" started.
+Action.c(34): Notify: Saving Parameter "interation = 5".
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_url("1") started  	[MsgId: MMSG-26355]
+Action.c(44): Notify: Parameter Substitution: parameter "interation" =  "5"
+Action.c(44): Notify: Saving Parameter "parse = 
+    
+    <p><input type="radio" name="0mSQcJZ6FtvjENj5" value="yyZ5MPf4">yyZ5MPf4 &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="mS3mDhg">mS3mDhg &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="z7F0Xl2e1RDIu">z7F0Xl2e1RDIu &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="n7zA4muuIp">n7zA4muuIp &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="vnQqkNbZjgkkjmxw" value="DHUXCe1RjHzqYv">DHUXCe1RjHzqYv &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="htOhpuR1">htOhpuR1 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="HdxJ7uQ4">HdxJ7uQ4 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="qGXW8Qfj">qGXW8Qfj &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="73b41cLnsA">73b41cLnsA &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="text" name="XHZsVwWXdOxo7BDL"></p>
+    
+    <p><button type="submit">Submit</button></p>
+".
+Action.c(44): web_url("1") was successful, 2085 body bytes, 163 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Extras.c(3): Notify: Parameter Substitution: parameter "parse" =  "
+    
+    <p><input type="radio" name="0mSQcJZ6FtvjENj5" value="yyZ5MPf4">yyZ5MPf4 &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="mS3mDhg">mS3mDhg &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="z7F0Xl2e1RDIu">z7F0Xl2e1RDIu &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="n7zA4muuIp">n7zA4muuIp &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="radio" name="vnQqkNbZjgkkjmxw" value="DHUXCe1RjHzqYv">DHUXCe1RjHzqYv &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="htOhpuR1">htOhpuR1 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="HdxJ7uQ4">HdxJ7uQ4 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="qGXW8Qfj">qGXW8Qfj &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="73b41cLnsA">73b41cLnsA &nbsp;&nbsp;&nbsp;</p>
+    
+    <p><input type="text" name="XHZsVwWXdOxo7BDL"></p>
+    
+    <p><button type="submit">Submit</button></p>
+"
+Extras.c(9): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(9): Received Regular Expression [<p>(.+)</p>], ordinal [0], case-sensitive [true], parameter [PStrings_5], size of buffer to scan: [969].
+Extras.c(9): Notify: Saving Parameter "PStrings_5_1 = <input type="radio" name="0mSQcJZ6FtvjENj5" value="yyZ5MPf4">yyZ5MPf4 &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="mS3mDhg">mS3mDhg &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="z7F0Xl2e1RDIu">z7F0Xl2e1RDIu &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="n7zA4muuIp">n7zA4muuIp &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_5_2 = <input type="radio" name="vnQqkNbZjgkkjmxw" value="DHUXCe1RjHzqYv">DHUXCe1RjHzqYv &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="htOhpuR1">htOhpuR1 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="HdxJ7uQ4">HdxJ7uQ4 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="qGXW8Qfj">qGXW8Qfj &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="73b41cLnsA">73b41cLnsA &nbsp;&nbsp;&nbsp;".
+Extras.c(9): Notify: Saving Parameter "PStrings_5_3 = <input type="text" name="XHZsVwWXdOxo7BDL">".
+Extras.c(9): Notify: Saving Parameter "PStrings_5_4 = <button type="submit">Submit</button>".
+Extras.c(9): Notify: Saving Parameter "PStrings_5_count = 4".
+Extras.c(17): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(17): Notify: Parameter Substitution: parameter "PStrings_5_count" =  "4"
+4 match(es) found.
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_5_1" =  "<input type="radio" name="0mSQcJZ6FtvjENj5" value="yyZ5MPf4">yyZ5MPf4 &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="mS3mDhg">mS3mDhg &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="z7F0Xl2e1RDIu">z7F0Xl2e1RDIu &nbsp;&nbsp;&nbsp;<input type="radio" name="0mSQcJZ6FtvjENj5" value="n7zA4muuIp">n7zA4muuIp &nbsp;&nbsp;&nbsp;"
+Extras.c(25): Notify: Saving Parameter "ordinal = 1".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_1], size of buffer to scan: [364].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(36): Warning: The string 'inputName_5_1' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_1], size of buffer to scan: [364].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(52): Warning: The string 'inputName_5_1' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_5_1], size of buffer to scan: [364].
+Extras.c(61): Notify: Saving Parameter "inputName_5_1 = 0mSQcJZ6FtvjENj5".
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(69): Notify: Parameter Substitution: parameter "inputName_5_1" =  "0mSQcJZ6FtvjENj5"
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+LOG: This is a radio
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [364].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = yyZ5MPf4".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = mS3mDhg".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = z7F0Xl2e1RDIu".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = n7zA4muuIp".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 4".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "4"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "yyZ5MPf4"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "yyZ5MPf4"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "mS3mDhg"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "z7F0Xl2e1RDIu"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_3" =  "z7F0Xl2e1RDIu"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "n7zA4muuIp"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "1"
+Extras.c(106): Notify: Saving Parameter "inputValue_5_1 = z7F0Xl2e1RDIu".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_5_2" =  "<input type="radio" name="vnQqkNbZjgkkjmxw" value="DHUXCe1RjHzqYv">DHUXCe1RjHzqYv &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="htOhpuR1">htOhpuR1 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="HdxJ7uQ4">HdxJ7uQ4 &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="qGXW8Qfj">qGXW8Qfj &nbsp;&nbsp;&nbsp;<input type="radio" name="vnQqkNbZjgkkjmxw" value="73b41cLnsA">73b41cLnsA &nbsp;&nbsp;&nbsp;"
+Extras.c(25): Notify: Saving Parameter "ordinal = 2".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_2], size of buffer to scan: [456].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(36): Warning: The string 'inputName_5_2' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_2], size of buffer to scan: [456].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(52): Warning: The string 'inputName_5_2' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_5_2], size of buffer to scan: [456].
+Extras.c(61): Notify: Saving Parameter "inputName_5_2 = vnQqkNbZjgkkjmxw".
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(69): Notify: Parameter Substitution: parameter "inputName_5_2" =  "vnQqkNbZjgkkjmxw"
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+LOG: This is a radio
+Extras.c(89): Received Regular Expression [value="(\w+)">], ordinal [0], case-sensitive [true], parameter [selectValues], size of buffer to scan: [456].
+Extras.c(89): Notify: Saving Parameter "selectValues_1 = DHUXCe1RjHzqYv".
+Extras.c(89): Notify: Saving Parameter "selectValues_2 = htOhpuR1".
+Extras.c(89): Notify: Saving Parameter "selectValues_3 = HdxJ7uQ4".
+Extras.c(89): Notify: Saving Parameter "selectValues_4 = qGXW8Qfj".
+Extras.c(89): Notify: Saving Parameter "selectValues_5 = 73b41cLnsA".
+Extras.c(89): Notify: Saving Parameter "selectValues_count = 5".
+Extras.c(97): Notify: Parameter Substitution: parameter "selectValues_count" =  "5"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_1" =  "DHUXCe1RjHzqYv"
+Extras.c(102): Notify: Parameter Substitution: parameter "selectValues_1" =  "DHUXCe1RjHzqYv"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_2" =  "htOhpuR1"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_3" =  "HdxJ7uQ4"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_4" =  "qGXW8Qfj"
+Extras.c(101): Notify: Parameter Substitution: parameter "selectValues_5" =  "73b41cLnsA"
+Extras.c(106): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(106): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(106): Notify: Saving Parameter "inputValue_5_2 = DHUXCe1RjHzqYv".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_5_3" =  "<input type="text" name="XHZsVwWXdOxo7BDL">"
+Extras.c(25): Notify: Saving Parameter "ordinal = 3".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_3], size of buffer to scan: [43].
+Extras.c(28): Notify: Saving Parameter "inputName_5_3 = XHZsVwWXdOxo7BDL".
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(36): Notify: Parameter Substitution: parameter "inputName_5_3" =  "XHZsVwWXdOxo7BDL"
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+LOG: This is a text
+Extras.c(38): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(38): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(38): Notify: Saving Parameter "inputValue_5_3 = test".
+Extras.c(23): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(23): Notify: Parameter Substitution: parameter "PStrings_5_4" =  "<button type="submit">Submit</button>"
+Extras.c(25): Notify: Saving Parameter "ordinal = 4".
+Extras.c(28): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(28): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(28): Received Regular Expression [<input type="text" name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_4], size of buffer to scan: [37].
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(36): Warning: The string 'inputName_5_4' with parameter delimiters is not a parameter.
+Extras.c(36): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(36): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(44): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(44): Received Regular Expression [<select name="(\w+)">], ordinal [1], case-sensitive [true], parameter [inputName_5_4], size of buffer to scan: [37].
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(52): Warning: The string 'inputName_5_4' with parameter delimiters is not a parameter.
+Extras.c(52): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(52): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(61): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(61): Received Regular Expression [<input type="radio" name="(\w+)"], ordinal [1], case-sensitive [true], parameter [inputName_5_4], size of buffer to scan: [37].
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+Extras.c(69): Warning: The string 'inputName_5_4' with parameter delimiters is not a parameter.
+Extras.c(69): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(69): Notify: Parameter Substitution: parameter "ordinal" =  "4"
+LOG: another type
+Action.c(55): Notify: Transaction "Refresh" ended with a "Pass" status (Duration: 0,1640 Wasted Time: 0,0172).
+Action.c(57): lr_think_time: 3,00 seconds.
+Action.c(59): Notify: Transaction "Submit" started.
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(114): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputName_5_1" =  "0mSQcJZ6FtvjENj5"
+Extras.c(114): Notify: Parameter Substitution: parameter "inputValue_5_1" =  "z7F0Xl2e1RDIu"
+Extras.c(115): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(115): Notify: Parameter Substitution: parameter "PStrings_5_count" =  "4"
+Extras.c(118): Notify: Saving Parameter "ordinal = 2".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "2"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_5_2" =  "vnQqkNbZjgkkjmxw"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_5_2" =  "DHUXCe1RjHzqYv"
+Extras.c(118): Notify: Saving Parameter "ordinal = 3".
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "interation" =  "5"
+Extras.c(119): Notify: Parameter Substitution: parameter "ordinal" =  "3"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputName_5_3" =  "XHZsVwWXdOxo7BDL"
+Extras.c(119): Notify: Parameter Substitution: parameter "inputValue_5_3" =  "test"
+LOG: Body=0mSQcJZ6FtvjENj5=z7F0Xl2e1RDIu&vnQqkNbZjgkkjmxw=DHUXCe1RjHzqYv&XHZsVwWXdOxo7BDL=test
+Extras.c(124): Notify: Saving Parameter "submitFormBody = Body=0mSQcJZ6FtvjENj5=z7F0Xl2e1RDIu&vnQqkNbZjgkkjmxw=DHUXCe1RjHzqYv&XHZsVwWXdOxo7BDL=test".
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(67): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): Notify: Parameter Substitution: parameter "submitFormBody" =  "Body=0mSQcJZ6FtvjENj5=z7F0Xl2e1RDIu&vnQqkNbZjgkkjmxw=DHUXCe1RjHzqYv&XHZsVwWXdOxo7BDL=test"
+Action.c(72): web_custom_request("1_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "5"
+Action.c(72): Notify: Parameter Substitution: parameter "interation" =  "5"
+Action.c(72): Registered web_reg_find successful for "Text=Test successfully passed" (count=2)  	[MsgId: MMSG-26364]
+Action.c(72): Notify: Saving Parameter "succes_count = 2".
+Action.c(72): Registered web_reg_find successful for "Text=ERROR: one or several values are incorrect"  	[MsgId: MMSG-26362]
+Action.c(72): Notify: Saving Parameter "error_count = 0".
+Action.c(72): web_custom_request("1_2") was successful, 149 body bytes, 156 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Parameter Substitution: parameter "succes_count" =  "2"
+Action.c(84): Notify: Transaction "Submit" ended with a "Pass" status (Duration: 0,1758 Wasted Time: 0,0190).
+Ending action Action.
+Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

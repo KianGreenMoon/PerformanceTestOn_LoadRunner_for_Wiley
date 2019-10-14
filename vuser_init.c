@@ -1,15 +1,16 @@
-/*
-	Author: Kian Eugen Seibel (Евгений Алексеевич Сайбель)
+п»ї/*
+	Author: Kian Eugen Seibel (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 	Project: http://test.youplace.net
 	Date: 12.10.2019
 	
 	Description:
 		1. Enter the portal
 		-- loop
-		2. INPUT[@type=text] field must be filled in with "test" value
-		3. INPUT[@type=radio] field must be selected with the longest value 
-		4. SELECT field must be selected with the longest value
-		5. Push 'Submit' button
+		2. Refresh - identify the type, name and value of the form:
+			1). INPUT[@type=text] field must be filled in with "test" value
+			2). INPUT[@type=radio] field must be selected with the longest value
+			3). SELECT field must be selected with the longest value
+		3. Push 'Submit' button with needs parameters
 		-- ERROR: one or several values are incorrect ? end loop with Fail status : continue
 		-- Success ? end loop with Pass status : continue
 		

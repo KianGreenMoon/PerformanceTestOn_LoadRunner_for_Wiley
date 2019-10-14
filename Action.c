@@ -5,7 +5,7 @@
 	web_cache_cleanup();
 	web_cleanup_auto_headers();
 
-	lr_start_transaction("1_transaction");
+	lr_start_transaction("Enter");
 	
 	web_set_max_html_param_len("999999");
 
@@ -23,15 +23,16 @@
 		"Snapshot=t41.inf", 
 		LAST);
 
-	lr_end_transaction("1_transaction",LR_AUTO);
-
-	lr_think_time(3);
+	lr_end_transaction("Enter",LR_AUTO);
 	
+	//Limitation for escape infinity loop; If you want it, delete this limit
 	for (i = 1; i <= 50; i++) {
 		
-	lr_save_int(i, "interation");
+	lr_think_time(3);
 
-	lr_start_transaction("refresh");
+	lr_start_transaction("Refresh");
+	
+	lr_save_int(i, "interation");
 
 	web_reg_save_param_ex(
 		"ParamName=parse",
@@ -52,11 +53,11 @@
 	
 	formsParser();
 
-	lr_end_transaction("refresh",LR_AUTO);
+	lr_end_transaction("Refresh",LR_AUTO);
 
 	lr_think_time(3);
 
-	lr_start_transaction("submit");
+	lr_start_transaction("Submit");
 
 	bodyRequestBuilder();
 	
@@ -81,15 +82,15 @@
 		LAST);
 	
 	if(atoi ( lr_eval_string("{succes_count}") ) > 0) {
-		lr_end_transaction("submit", LR_PASS);
+		lr_end_transaction("Submit", LR_PASS);
 		return 0;
 	}
 	else if(atoi ( lr_eval_string("{error_count}") ) > 0) {
-		lr_end_transaction("submit", LR_FAIL);
+		lr_end_transaction("Submit", LR_FAIL);
 		return 0;
 	}
 
-	lr_end_transaction("submit",LR_AUTO);
+	lr_end_transaction("Submit",LR_AUTO);
 	
 	}
 	
