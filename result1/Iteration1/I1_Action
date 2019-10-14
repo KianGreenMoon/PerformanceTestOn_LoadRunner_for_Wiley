@@ -2,10 +2,12 @@
 PassCount=1
 Pass1=t2
 [t42]
-PassCount=1
+Pass2=t5
+PassCount=2
 Pass1=t3
 [t43]
-PassCount=1
+Pass2=t6
+PassCount=2
 Pass1=t4
 [t40]
 PassCount=1

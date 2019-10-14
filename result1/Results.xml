@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="14.10.2019 - 0:11:01" eTime="14.10.2019 - 0:11:01" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="14.10.2019 - 19:21:00" eTime="14.10.2019 - 19:21:00" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Cleanup Cookies]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove all the cookies that are currently stored by the Vuser</CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:01]]></Time>
-<TimeTick>1571001061</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:00]]></Time>
+<TimeTick>1571070060</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Cleanup Cookies]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Cache Cleanup]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Clear the contents of the cache simulator</CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:01]]></Time>
-<TimeTick>1571001061</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:00]]></Time>
+<TimeTick>1571070060</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Cache Cleanup]]></Disp>
 </NodeArgs>
@@ -164,8 +164,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Cleanup Auto Headers]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Stop adding customized headers to subsequent HTTP requests</CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:01]]></Time>
-<TimeTick>1571001061</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:00]]></Time>
+<TimeTick>1571070060</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" >
 <Disp><![CDATA[Service: Cleanup Auto Headers]]></Disp>
 </NodeArgs>
@@ -173,8 +173,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>999999</FONT></STRONG> characters</CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:01]]></Time>
-<TimeTick>1571001061</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:00]]></Time>
+<TimeTick>1571070060</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="12" >
 <Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
 </NodeArgs>
@@ -182,8 +182,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:02]]></Time>
-<TimeTick>1571001062</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:01]]></Time>
+<TimeTick>1571070061</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="13" status="Passed" >
 <Disp><![CDATA[Url: test.youplace.net]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -194,8 +194,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Link: Start test]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:03]]></Time>
-<TimeTick>1571001063</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:01]]></Time>
+<TimeTick>1571070061</TimeTick>
 <NodeArgs eType="General" icon="9" nRep="14" status="Passed" >
 <Disp><![CDATA[Link: Start test]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -206,8 +206,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parse</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<form method="POST"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</form></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:03]]></Time>
-<TimeTick>1571001063</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:04]]></Time>
+<TimeTick>1571070064</TimeTick>
 <NodeArgs eType="General" icon="10" nRep="15" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -215,8 +215,8 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Url: 1]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:03]]></Time>
-<TimeTick>1571001063</TimeTick>
+<Time><![CDATA[14.10.2019 - 19:21:04]]></Time>
+<TimeTick>1571070064</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="16" status="Passed" >
 <Disp><![CDATA[Url: 1]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -225,35 +225,104 @@
 </NodeArgs>
 </Step>
 <Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Test successfully passed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:07]]></Time>
+<TimeTick>1571070067</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="17" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=ERROR: one or several values are incorrect</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:07]]></Time>
+<TimeTick>1571070067</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="18" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Custom Request: 1_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[14.10.2019 - 0:11:03]]></Time>
-<TimeTick>1571001063</TimeTick>
-<NodeArgs eType="General" icon="11" nRep="17" status="Passed" >
+<Time><![CDATA[14.10.2019 - 19:21:08]]></Time>
+<TimeTick>1571070068</TimeTick>
+<NodeArgs eType="General" icon="12" nRep="19" status="Passed" >
 <Disp><![CDATA[Custom Request: 1_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="14.10.2019 - 0:11:01" eTime="14.10.2019 - 0:11:04" passed="4" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parse</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<form method="POST"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</form></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:08]]></Time>
+<TimeTick>1571070068</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="20" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Url: 1]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:08]]></Time>
+<TimeTick>1571070068</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="21" status="Passed" >
+<Disp><![CDATA[Url: 1]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Test successfully passed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:11]]></Time>
+<TimeTick>1571070071</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="22" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=ERROR: one or several values are incorrect</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:11]]></Time>
+<TimeTick>1571070071</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="23" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Custom Request: 1_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[14.10.2019 - 19:21:11]]></Time>
+<TimeTick>1571070071</TimeTick>
+<NodeArgs eType="General" icon="12" nRep="24" status="Failed" >
+<Disp><![CDATA[Custom Request: 1_2]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t6.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="14.10.2019 - 19:21:00" eTime="14.10.2019 - 19:21:11" passed="5" failed="1" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
 <Disp><![CDATA[PerformanceTestOn_LoadRunner_for_Wiley Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T14">
+<Action rID="T21">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="14.10.2019 - 0:11:04" eTime="14.10.2019 - 0:11:04" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="20" >
+<Summary sTime="14.10.2019 - 19:21:11" eTime="14.10.2019 - 19:21:11" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="27" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="14.10.2019 - 0:11:01" eTime="14.10.2019 - 0:11:04" passed="4" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Summary sTime="14.10.2019 - 19:21:00" eTime="14.10.2019 - 19:21:11" passed="5" failed="1" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test PerformanceTestOn_LoadRunner_for_Wiley Summary]]></Disp>
 </NodeArgs>
 </Doc>

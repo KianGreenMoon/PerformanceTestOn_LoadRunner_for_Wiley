@@ -56,9 +56,9 @@ Action=cci
 Extras=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="1_transaction__*delimiter*__refresh__*delimiter*__submit__*delimiter*__error__*delimiter*__success"
+Order="1_transaction__*delimiter*__refresh__*delimiter*__submit"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
@@ -66,5 +66,3 @@ ActiveRunName=result1
 1_transaction=
 refresh=
 submit=
-error=
-success=

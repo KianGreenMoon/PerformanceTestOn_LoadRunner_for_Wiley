@@ -6,48 +6,74 @@
                 "stepId": "STEP1",
                 "stepName": "Url: test.youplace.net",
                 "infFile": "t1.inf",
-                "time": 1571001062964
+                "time": 1571070061389
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Link: Start test",
                 "infFile": "t2.inf",
-                "time": 1571001063106
+                "time": 1571070061548
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: 1",
                 "infFile": "t3.inf",
-                "time": 1571001063244
+                "time": 1571070064699
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Custom Request: 1_2",
                 "infFile": "t4.inf",
-                "time": 1571001063997
+                "time": 1571070068119
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: 1",
+                "infFile": "t5.inf",
+                "time": 1571070068300
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: 1_2",
+                "infFile": "t6.inf",
+                "time": 1571070071511
             }
         ],
         "transactions": [
             {
                 "transactionName": "1_transaction",
-                "rawStartTime": 1571001061511,
-                "rawEndTime": 1571001063107,
+                "rawStartTime": 1571070060378,
+                "rawEndTime": 1571070061549,
                 "thinkTime": 0.0,
-                "wastedTime": 0.09435105323791504
+                "wastedTime": 0.0959310531616211
             },
             {
                 "transactionName": "refresh",
-                "rawStartTime": 1571001063111,
-                "rawEndTime": 1571001063252,
+                "rawStartTime": 1571070064558,
+                "rawEndTime": 1571070064713,
                 "thinkTime": 0.0,
-                "wastedTime": 0.016364336013793947
+                "wastedTime": 0.018731811523437504
             },
             {
                 "transactionName": "submit",
-                "rawStartTime": 1571001063256,
-                "rawEndTime": 1571001063998,
+                "rawStartTime": 1571070067718,
+                "rawEndTime": 1571070068125,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02750420570373535
+                "wastedTime": 0.022391319274902345
+            },
+            {
+                "transactionName": "refresh",
+                "rawStartTime": 1571070068134,
+                "rawEndTime": 1571070068309,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02907195281982422
+            },
+            {
+                "transactionName": "submit",
+                "rawStartTime": 1571070071314,
+                "rawEndTime": 1571070071517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018230915069580079
             }
         ]
     }
