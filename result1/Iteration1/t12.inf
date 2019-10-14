@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_12.xml
+ContentType=text/html
+StepName=Custom Request: 1_2
+Total=1
+FileName1=t12.html
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=1_2
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1571073475105
+URL1=http://test.youplace.net/question/6

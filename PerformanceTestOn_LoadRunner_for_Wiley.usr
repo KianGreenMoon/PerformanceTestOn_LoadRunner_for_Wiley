@@ -58,7 +58,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="1_transaction__*delimiter*__refresh__*delimiter*__submit"
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

@@ -7,6 +7,6 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: test.youplace.net
-Cookie: SID=xPazViX2LsOyp8W8eEpDFpglcWjMZ5se
-Content-Length: 87
+Cookie: SID=34VNggYUC9lbVZvzz7QlWxDQDYVJEjt8
+Content-Length: 99
 

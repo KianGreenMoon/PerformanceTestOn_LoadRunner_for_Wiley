@@ -2705,21 +2705,6 @@ Action()
 	
 	return 0;
 }
-
-bodyRequestBuilder() {
-	int matchCt, ord;
-	char *body=lr_eval_string("Body={inputName_1}={inputValue_1}");
-	matchCt = lr_paramarr_len("PStrings");
-	
-	for (ord=2; ord < matchCt; ord++){
-		lr_save_int(ord, "ordinal");
-		snprintf( body, 2014 , "%s&%s", body, lr_eval_string(lr_eval_string("{inputName_{ordinal}}={inputValue_{ordinal}}")) );
-	}
-
-	lr_log_message("LOG: %s", body);
-	
-	lr_save_string(body, "submitFormBody");
-}
 # 5 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
 
 # 1 "Extras.c" 1
@@ -2736,16 +2721,16 @@ formsParser()
                strlen(bufferToSearch),
                "RegExp=<p>(.+)</p>",
                "Ordinal=All",
-               "ResultParam=PStrings",
+               lr_eval_string("ResultParam=PStrings_{interation}"),
                "LAST" );
 
-    matchCt = lr_paramarr_len("PStrings");
+    matchCt = lr_paramarr_len(lr_eval_string("PStrings_{interation}"));
 
     lr_message("%d match(es) found.", matchCt);
 
     for (ord=1; ord <= matchCt; ord++){
     	
-    arrayMemberValue = lr_paramarr_idx("PStrings", ord);
+    arrayMemberValue = lr_paramarr_idx(lr_eval_string("PStrings_{interation}"), ord);
     	
 	lr_save_int(ord, "ordinal");
 	
@@ -2755,12 +2740,12 @@ formsParser()
                strlen(arrayMemberValue),
                "RegExp=<input type=\"text\" name=\"(\\w+)\">",
                "Ordinal=1",
-               lr_eval_string("ResultParam=inputName_{ordinal}"),
+               lr_eval_string("ResultParam=inputName_{interation}_{ordinal}"),
                "LAST" );
     
-    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
+    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{interation}_{ordinal}}")),  lr_eval_string("{inputName_{interation}_{ordinal}}")) != 0 ) {
     	lr_log_message("LOG: This is a text");
-		lr_save_string("test", lr_eval_string("inputValue_{ordinal}"));
+		lr_save_string("test", lr_eval_string("inputValue_{interation}_{ordinal}"));
     }
     
     else {
@@ -2771,10 +2756,10 @@ formsParser()
                strlen(arrayMemberValue),
                "RegExp=<select name=\"(\\w+)\">",
                "Ordinal=1",
-               lr_eval_string("ResultParam=inputName_{ordinal}"),
+               lr_eval_string("ResultParam=inputName_{interation}_{ordinal}"),
                "LAST" );
     
-   if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
+   if( strcmp (lr_eval_string(lr_eval_string("{inputName_{interation}_{ordinal}}")),  lr_eval_string("{inputName_{interation}_{ordinal}}")) != 0 ) {
     	lr_log_message("LOG: This is a select");
     	findLongestValue(arrayMemberValue);	    	
     }
@@ -2788,10 +2773,10 @@ formsParser()
                strlen(arrayMemberValue),
                "RegExp=<input type=\"radio\" name=\"(\\w+)\"",
                "Ordinal=1",
-               lr_eval_string("ResultParam=inputName_{ordinal}"),
+               lr_eval_string("ResultParam=inputName_{interation}_{ordinal}"),
                "LAST" );
     	
-    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{ordinal}}")),  lr_eval_string("{inputName_{ordinal}}")) != 0 ) {
+    if( strcmp (lr_eval_string(lr_eval_string("{inputName_{interation}_{ordinal}}")),  lr_eval_string("{inputName_{interation}_{ordinal}}")) != 0 ) {
     	lr_log_message("LOG: This is a radio");
     	findLongestValue(arrayMemberValue);
     }
@@ -2828,10 +2813,25 @@ findLongestValue(char *arrayMemberValue) {
 		}
 	}
 	
-	lr_save_string(longestValue, lr_eval_string("inputValue_{ordinal}"));
+	lr_save_string(longestValue, lr_eval_string("inputValue_{interation}_{ordinal}"));
 	
 	return 0;
 	
+}
+
+bodyRequestBuilder() {
+	int matchCt, ord;
+	char *body=lr_eval_string(lr_eval_string("Body={inputName_{interation}_1}={inputValue_{interation}_1}"));
+	matchCt = lr_paramarr_len(lr_eval_string("PStrings_{interation}"));
+	
+	for (ord=2; ord < matchCt; ord++){
+		lr_save_int(ord, "ordinal");
+		snprintf( body, 2014 , "%s&%s", body, lr_eval_string(lr_eval_string("{inputName_{interation}_{ordinal}}={inputValue_{interation}_{ordinal}}")) );
+	}
+
+	lr_log_message("LOG: %s", body);
+	
+	lr_save_string(body, "submitFormBody");
 }
 # 6 "c:\\users\\emper\\documents\\vugen\\scripts\\test\\performanceteston_loadrunner_for_wiley\\\\combined_PerformanceTestOn_LoadRunner_for_Wiley.c" 2
 

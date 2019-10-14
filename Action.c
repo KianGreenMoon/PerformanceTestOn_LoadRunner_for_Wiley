@@ -95,18 +95,3 @@
 	
 	return 0;
 }
-
-bodyRequestBuilder() {
-	int matchCt, ord;
-	char *body=lr_eval_string("Body={inputName_1}={inputValue_1}");
-	matchCt = lr_paramarr_len("PStrings");
-	
-	for (ord=2; ord < matchCt; ord++){
-		lr_save_int(ord, "ordinal");
-		snprintf( body, 2014 , "%s&%s", body, lr_eval_string(lr_eval_string("{inputName_{ordinal}}={inputValue_{ordinal}}")) );
-	}
-
-	lr_log_message("LOG: %s", body);
-	
-	lr_save_string(body, "submitFormBody");
-}
